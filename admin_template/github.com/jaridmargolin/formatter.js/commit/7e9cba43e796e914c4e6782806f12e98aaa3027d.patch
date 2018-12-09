@@ -1,0 +1,29 @@
+From 7e9cba43e796e914c4e6782806f12e98aaa3027d Mon Sep 17 00:00:00 2001
+From: Jarid Margolin <jaridmargolin@gmail.com>
+Date: Thu, 8 May 2014 17:16:57 -0700
+Subject: [PATCH] Update .travis.yml to install bower_components.
+
+---
+ .travis.yml | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+diff --git a/.travis.yml b/.travis.yml
+index 2346a43..e3117b8 100644
+--- a/.travis.yml
++++ b/.travis.yml
+@@ -1,7 +1,11 @@
+ language: node_js
+ node_js:
+-  - 0.10
+-before_install: npm install -g grunt-cli
++- 0.1
++before_script:
++- npm install -g grunt-cli
++- npm install -g bower
++- npm install --no-bin-links
++- bower install
+ notifications:
+   email:
+-    - jarid@firstopinion.co
++    - jarid@firstopinion.co
+\ No newline at end of file

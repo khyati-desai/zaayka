@@ -1,0 +1,50 @@
+From 36660b4bc26ca916ab5f9b5567c59ca6a1eee615 Mon Sep 17 00:00:00 2001
+From: Jarid Margolin <jaridmargolin@gmail.com>
+Date: Fri, 9 May 2014 15:29:39 -0700
+Subject: [PATCH] Include all tests in _runner.
+
+---
+ docs/javascripts/formatter.js        | 2 +-
+ docs/javascripts/jquery.formatter.js | 2 +-
+ test/_runner.html                    | 6 +++---
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/docs/javascripts/formatter.js b/docs/javascripts/formatter.js
+index f5255db..59f03bb 100644
+--- a/docs/javascripts/formatter.js
++++ b/docs/javascripts/formatter.js
+@@ -1,5 +1,5 @@
+ /*!
+- * v0.1.3
++ * v0.1.4
+  * Copyright (c) 2014 First Opinion
+  * formatter.js is open sourced under the MIT license.
+  *
+diff --git a/docs/javascripts/jquery.formatter.js b/docs/javascripts/jquery.formatter.js
+index 1f65d0d..e8dc581 100644
+--- a/docs/javascripts/jquery.formatter.js
++++ b/docs/javascripts/jquery.formatter.js
+@@ -1,5 +1,5 @@
+ /*!
+- * v0.1.3
++ * v0.1.4
+  * Copyright (c) 2014 First Opinion
+  * formatter.js is open sourced under the MIT license.
+  *
+diff --git a/test/_runner.html b/test/_runner.html
+index 8764706..6364ef3 100644
+--- a/test/_runner.html
++++ b/test/_runner.html
+@@ -41,9 +41,9 @@
+       }).run({
+         name: 'mocha',
+         tests: [
+-          // './utils.js',
+-          // './pattern.js',
+-          // './pattern-matcher.js',
++          './utils.js',
++          './pattern.js',
++          './pattern-matcher.js',
+           './formatter.js'
+         ]
+       });

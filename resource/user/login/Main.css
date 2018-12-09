@@ -1,0 +1,42 @@
+        #main1,#main2{
+            position: relative;
+            transform: translate(-50%,-50%) rotateY(0deg);
+            border: 2px solid;
+            background-color: transparent;
+            top:34rem;
+            left: 40%;
+            margin-bottom: 1rem;
+        }
+        /*#update_profile{
+            position: relative;
+            border: 2px solid;
+            background-color: transparent;
+            top:34rem;
+            left: 40%;
+            margin-bottom: 5rem;
+        }*/
+        #main1{
+            -webkit-backface-visibility:hidden;
+            -webkit-animation-duration:2s;
+        }
+        #main2{
+            -webkit-backface-visibility:hidden;
+            -webkit-transform:translate(-50%,-50%) rotateY(180deg);
+            -webkit-animation-duration:2s;
+        }
+        @-webkit-keyframes showSignUp{
+            0%{transform: translate(-50%,-50%) rotateY(0deg);}
+            100%{transform: translate(-50%,-50%) rotateY(180deg);}
+        }
+        @-webkit-keyframes hideSignIn{
+            0%{transform: translate(-50%,-50%) rotateY(180deg);}
+            100%{transform: translate(-50%,-50%) rotateY(0deg);}
+        }
+        @-webkit-keyframes showSignIn{
+            0%{transform: translate(-50%,-50%) rotateY(0deg);}
+            100%{transform: translate(-50%,-50%) rotateY(180deg);}
+        }
+        @-webkit-keyframes hideSignUp{
+            0%{transform: translate(-50%,-50%) rotateY(180deg);}
+            100%{transform: translate(-50%,-50%) rotateY(0deg);}
+        }

@@ -1,0 +1,58 @@
+From 51c068bed4e78ba5db7f44911f7ae8ef259f692f Mon Sep 17 00:00:00 2001
+From: Jarid Margolin <jaridmargolin@gmail.com>
+Date: Thu, 11 Sep 2014 13:28:41 -0700
+Subject: [PATCH] v0.1.5
+
+---
+ bower.json               | 2 +-
+ dist/formatter.js        | 2 +-
+ dist/jquery.formatter.js | 2 +-
+ package.json             | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/bower.json b/bower.json
+index 52db219..d2dd241 100644
+--- a/bower.json
++++ b/bower.json
+@@ -1,6 +1,6 @@
+ {
+   "name": "formatter.js",
+-  "version": "0.1.4",
++  "version": "0.1.5",
+   "devDependencies": {
+     "easy-amdtest": "~0.0.1",
+     "requirejs": "~2.1.11",
+diff --git a/dist/formatter.js b/dist/formatter.js
+index 59f03bb..386444f 100644
+--- a/dist/formatter.js
++++ b/dist/formatter.js
+@@ -1,5 +1,5 @@
+ /*!
+- * v0.1.4
++ * v0.1.5
+  * Copyright (c) 2014 First Opinion
+  * formatter.js is open sourced under the MIT license.
+  *
+diff --git a/dist/jquery.formatter.js b/dist/jquery.formatter.js
+index e8dc581..7909731 100644
+--- a/dist/jquery.formatter.js
++++ b/dist/jquery.formatter.js
+@@ -1,5 +1,5 @@
+ /*!
+- * v0.1.4
++ * v0.1.5
+  * Copyright (c) 2014 First Opinion
+  * formatter.js is open sourced under the MIT license.
+  *
+diff --git a/package.json b/package.json
+index 372896e..fa5ac83 100644
+--- a/package.json
++++ b/package.json
+@@ -1,6 +1,6 @@
+ {
+   "name": "formatter.js",
+-  "version": "0.1.4",
++  "version": "0.1.5",
+   "description": "Format user input to match a specified pattern",
+   "author": "Jarid Margolin <jarid@firstopinion.com>",
+   "repository": {

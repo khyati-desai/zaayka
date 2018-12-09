@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/chaenu/formatter.js/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/chaenu/formatter.js/commits/master.atom"/>
+  <title>Recent Commits to formatter.js:master</title>
+  <updated>2013-12-01T06:51:04Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e712ed23fa42c07b1645eaa3d47a05b21e45966f</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/e712ed23fa42c07b1645eaa3d47a05b21e45966f"/>
+    <title>
+        Update special keys. Close #23
+    </title>
+    <updated>2013-12-01T06:51:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update special keys. Close #23&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/31562b33786acb35d8018f4f5ba0de74fe52cd52</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/31562b33786acb35d8018f4f5ba0de74fe52cd52"/>
+    <title>
+        Add method to Jquery lib. Updated README
+    </title>
+    <updated>2013-12-01T06:28:18Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add method to Jquery lib. Updated README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/4aff2046e83a12f7c92295db6c1ea81494339086</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/4aff2046e83a12f7c92295db6c1ea81494339086"/>
+    <title>
+        Add updates to dist. Close #24
+    </title>
+    <updated>2013-12-01T05:30:53Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add updates to dist. Close #24&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1bd29e702cb1d6950c71fa20108347d18d69db0a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/1bd29e702cb1d6950c71fa20108347d18d69db0a"/>
+    <title>
+        Method to add input types
+    </title>
+    <updated>2013-12-01T05:22:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Method to add input types&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/72ea52ff4c3f5266316f9d5e3f46b2fa2ed0285d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/72ea52ff4c3f5266316f9d5e3f46b2fa2ed0285d"/>
+    <title>
+        Fix maxLength error
+    </title>
+    <updated>2013-11-19T22:24:02Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix maxLength error&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/aaf5264af0bef097f3ffd4059fed20e7b0c8285e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/aaf5264af0bef097f3ffd4059fed20e7b0c8285e"/>
+    <title>
+        Update lib files for with reset fix
+    </title>
+    <updated>2013-11-19T02:10:40Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update lib files for with reset fix&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/3e42d0144a072588a5239ecfe6aa65e8adb7d2b4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/3e42d0144a072588a5239ecfe6aa65e8adb7d2b4"/>
+    <title>
+        Set pattern on reset method
+    </title>
+    <updated>2013-11-19T02:09:51Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Set pattern on reset method&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e87d0305f4a6e0ba11c0038bbba2f248ea5261d4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/e87d0305f4a6e0ba11c0038bbba2f248ea5261d4"/>
+    <title>
+        bump to 0.0.8. Close #22
+    </title>
+    <updated>2013-11-18T22:32:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;bump to 0.0.8. Close #22&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/231f2d1a5af4c7d9274270ab4a54930e38df36f3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/231f2d1a5af4c7d9274270ab4a54930e38df36f3"/>
+    <title>
+        Merge pull request #21 from jarofghosts/master
+    </title>
+    <updated>2013-11-14T19:28:27Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #21 from jarofghosts/master
+
+Switch RegExps to literals&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/43829c727a152f88d606d59986a1d6707cfd62bf</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/43829c727a152f88d606d59986a1d6707cfd62bf"/>
+    <title>
+        use regexp literal
+    </title>
+    <updated>2013-11-14T04:32:42Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/1013892?s=30&amp;v=4"/>
+    <author>
+      <name>jarofghosts</name>
+      <uri>https://github.com/jarofghosts</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;use regexp literal&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/04507e7ea25f59a5e4813b63e942f8b52373631b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/04507e7ea25f59a5e4813b63e942f8b52373631b"/>
+    <title>
+        Close #18
+    </title>
+    <updated>2013-11-14T03:40:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Close #18&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5e9388120b3f1b9e86e1c1bdb0818eb3a05a210a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/5e9388120b3f1b9e86e1c1bdb0818eb3a05a210a"/>
+    <title>
+        AMD support added to src files. Updated Gruntfile.
+    </title>
+    <updated>2013-11-13T03:02:18Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;AMD support added to src files. Updated Gruntfile.&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d6d5a10f15041b280420d0cd8ccc892485654753</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/d6d5a10f15041b280420d0cd8ccc892485654753"/>
+    <title>
+        Merge pull request #14 from bryanjswift/amd
+    </title>
+    <updated>2013-11-06T18:43:46Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #14 from bryanjswift/amd
+
+Make Formatter usable as an AMD module. Close #14 Close #13&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dd0cad8c69c29ef824d8f336a64f2ba9e90fcbcb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/dd0cad8c69c29ef824d8f336a64f2ba9e90fcbcb"/>
+    <title>
+        Merge pull request #12 from banafederico/patch-1
+    </title>
+    <updated>2013-11-05T07:16:39Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #12 from banafederico/patch-1
+
+Fixes small typo in README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/67194def331645c09a7f96f77a930c301bf80d86</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/67194def331645c09a7f96f77a930c301bf80d86"/>
+    <title>
+        Make Formatter usable as an AMD module
+    </title>
+    <updated>2013-11-04T23:49:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/9911?s=30&amp;v=4"/>
+    <author>
+      <name>bryanjswift</name>
+      <uri>https://github.com/bryanjswift</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Make Formatter usable as an AMD module&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5b0b5f9715703f4c33d32de688f636e5e0b34d7e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/5b0b5f9715703f4c33d32de688f636e5e0b34d7e"/>
+    <title>
+        Fixes small typo in README
+    </title>
+    <updated>2013-11-04T12:48:08Z</updated>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/3e9297646b9cb2d449fdffd861526b20?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>me@banafederico.com</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixes small typo in README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/65a088c11184e31db5d74552d28477268e4a82d8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/65a088c11184e31db5d74552d28477268e4a82d8"/>
+    <title>
+        update order of sections in README.md
+    </title>
+    <updated>2013-11-04T10:59:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;update order of sections in README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/74a3d272e0e1b6a2d3ed7ae6e1f5131103f9b1bf</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/74a3d272e0e1b6a2d3ed7ae6e1f5131103f9b1bf"/>
+    <title>
+        0.0.6 release
+    </title>
+    <updated>2013-11-04T10:50:59Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;0.0.6 release&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d9dbbfbf9766c759efdb3d8f00bbe4f69a633d30</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/d9dbbfbf9766c759efdb3d8f00bbe4f69a633d30"/>
+    <title>
+        Close #10 - Add resetPattern method
+    </title>
+    <updated>2013-11-04T10:44:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Close #10 - Add resetPattern method&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7e3ff86595548601f53e31248e614ff516796435</id>
+    <link type="text/html" rel="alternate" href="https://github.com/chaenu/formatter.js/commit/7e3ff86595548601f53e31248e614ff516796435"/>
+    <title>
+        Fix #11 by using charAt rather than [] to access string chars
+    </title>
+    <updated>2013-11-04T09:20:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix #11 by using charAt rather than [] to access string chars&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

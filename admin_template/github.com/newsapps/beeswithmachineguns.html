@@ -1,0 +1,1894 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from github.com/newsapps/beeswithmachineguns by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Apr 2018 07:04:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-8f281eb0a8d2308ceb36e714ba3c3aec.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-cec46cb7e4a6c4b4c35e2dac77b2196d.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-83dc1f7ebc9c7461fe1eab799b56c4c4.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - newsapps/beeswithmachineguns: A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/317822?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="newsapps/beeswithmachineguns" /><meta property="og:url" content="https://github.com/newsapps/beeswithmachineguns" /><meta property="og:description" content="beeswithmachineguns - A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications)." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="33FA:7FC5:293C696:49731A4:5ACB7153" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="33FA:7FC5:293C696:49731A4:5ACB7153" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="hydro-events-url" content="https://github.com/hydro_browser_events" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="MWRjYTY2NDVhZDllY2I5OGU1YjZiODBlM2ZjMjNhZDZjNDVmOWRkNzkwNDFjYTFmYTg4Nzk1ZmM1NzJjYWZlM3x7InJlbW90ZV9hZGRyZXNzIjoiMjE5LjkxLjIzOS4xMjQiLCJyZXF1ZXN0X2lkIjoiMzNGQTo3RkM1OjI5M0M2OTY6NDk3MzFBNDo1QUNCNzE1MyIsInRpbWVzdGFtcCI6MTUyMzI4MjI2MSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="c93ed10e39cc785bf529e2db8313369c9d932977">
+
+  <meta http-equiv="x-pjax-version" content="b2b37fc6af759019784f9b02db1e2b01">
+  
+
+      <link href="https://github.com/newsapps/beeswithmachineguns/commits/master.atom" rel="alternate" title="Recent Commits to beeswithmachineguns:master" type="application/atom+xml">
+
+  <meta name="description" content="beeswithmachineguns - A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).">
+  <meta name="go-import" content="github.com/newsapps/beeswithmachineguns git https://github.com/newsapps/beeswithmachineguns.git">
+
+  <meta name="octolytics-dimension-user_id" content="317822" /><meta name="octolytics-dimension-user_login" content="newsapps" /><meta name="octolytics-dimension-repository_id" content="747722" /><meta name="octolytics-dimension-repository_nwo" content="newsapps/beeswithmachineguns" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="747722" /><meta name="octolytics-dimension-repository_network_root_nwo" content="newsapps/beeswithmachineguns" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/newsapps/beeswithmachineguns" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="https://github.com/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="https://github.com/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="https://github.com/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="https://github.com/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="https://github.com/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="https://github.com/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/newsapps/beeswithmachineguns/search" data-unscoped-search-url="/search" action="https://github.com/newsapps/beeswithmachineguns/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+        <a class="header-search-scope no-underline" href="https://github.com/newsapps/beeswithmachineguns">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="https://github.com/login?return_to=%2Fnewsapps%2Fbeeswithmachineguns" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Fnewsapps%2Fbeeswithmachineguns"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="https://github.com/newsapps/beeswithmachineguns/watchers"
+     aria-label="195 users are watching this repository">
+    195
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fnewsapps%2Fbeeswithmachineguns"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="https://github.com/newsapps/beeswithmachineguns/stargazers"
+      aria-label="4781 users starred this repository">
+      4,781
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fnewsapps%2Fbeeswithmachineguns"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="https://github.com/newsapps/beeswithmachineguns/network" class="social-count"
+       aria-label="519 users forked this repository">
+      519
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="https://github.com/newsapps">newsapps</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="https://github.com/newsapps/beeswithmachineguns">beeswithmachineguns</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /newsapps/beeswithmachineguns" href="https://github.com/newsapps/beeswithmachineguns">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /newsapps/beeswithmachineguns/issues" href="https://github.com/newsapps/beeswithmachineguns/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">61</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /newsapps/beeswithmachineguns/pulls" href="https://github.com/newsapps/beeswithmachineguns/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">9</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /newsapps/beeswithmachineguns/projects" href="https://github.com/newsapps/beeswithmachineguns/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /newsapps/beeswithmachineguns/pulse" href="https://github.com/newsapps/beeswithmachineguns/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="https://github.com/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="bd62eYJig6z4PGs0eNkt6lU2PsSdkPUOHH4T9wjjqp2PpUoqBZrh7FJoAzY8uYbLHXH2qhsRNEakYGsKThasyQ==" />
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>
+          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 20 million developers working together to host and review code, manage projects, and build software together.</p>
+          <p class="pb-2">
+            <a class="btn btn-blue" href="https://github.com/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0 mb-3 js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).
+          </span>
+          <span itemprop="url"><a rel="nofollow" href="http://apps.chicagotribune.com/">http://apps.chicagotribune.com/</a></span>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax href="https://github.com/newsapps/beeswithmachineguns/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <span class="num text-emphasized">
+                249
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax href="https://github.com/newsapps/beeswithmachineguns/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/newsapps/beeswithmachineguns/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"/></svg>
+            <span class="num text-emphasized">
+              2
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/newsapps/beeswithmachineguns/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"/></svg>
+    <span class="num text-emphasized">
+      32
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="https://github.com/newsapps/beeswithmachineguns/blob/master/COPYING">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"/></svg>
+                MIT
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="https://github.com/newsapps/beeswithmachineguns/search?l=python"  data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#3572A5;"></span>
+                  <span class="lang">Python</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="Python 100.0%" style="width:100.0%; background-color:#3572A5;" itemprop="keywords">Python</span>
+    </div>
+
+
+
+  <div class="file-navigation in-mid-page">
+
+    <details class="get-repo-select-menu js-get-repo-select-menu float-right position-relative dropdown-details details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm js-url-field" value="https://github.com/newsapps/beeswithmachineguns.git" aria-label="Clone this repository at https://github.com/newsapps/beeswithmachineguns.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy
+        value="https://github.com/newsapps/beeswithmachineguns.git"
+        aria-label="Copy to clipboard"
+        class="btn btn-sm tooltipped tooltipped-s"
+        copied-label="Copied!">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+          
+<a href="https://github.com/newsapps/beeswithmachineguns/archive/master.zip"
+   class="btn btn-outline get-repo-btn
+"
+   rel="nofollow"
+   data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+
+  <div class="BtnGroup float-right">
+
+    <a href="https://github.com/newsapps/beeswithmachineguns/find/master"
+      class="btn btn-sm empty-icon float-right BtnGroup-item"
+      data-pjax
+      data-hotkey="t"
+      data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    
+    type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="https://github.com/newsapps/beeswithmachineguns/tree/master"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="https://github.com/newsapps/beeswithmachineguns/tree/test-with-boto-develop"
+               data-name="test-with-boto-develop"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                test-with-boto-develop
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="https://github.com/newsapps/beeswithmachineguns/tree/0.1.4"
+              data-name="0.1.4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.1.4">
+                0.1.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="https://github.com/newsapps/beeswithmachineguns/tree/0.1.0"
+              data-name="0.1.0"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.1.0">
+                0.1.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="https://github.com/newsapps/beeswithmachineguns/commit/4b8783dc36d327ad95b711db39054d64bd718344" data-pjax>
+        4b8783d
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-12-20T16:56:18Z">Dec 20, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+       aria-label="cosmin">
+
+        <a href="https://github.com/cosmin" data-skip-pjax="true" class="avatar">
+          <img src="https://avatars3.githubusercontent.com/u/1358?s=40&amp;v=4" width="20" height="20" alt="@cosmin">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="https://github.com/newsapps/beeswithmachineguns/commits?author=cosmin"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by cosmin">cosmin</a>
+
+
+  committed
+  <relative-time datetime="2017-12-20T16:56:18Z">Dec 20, 2017</relative-time>
+
+
+
+      <a href="https://github.com/newsapps/beeswithmachineguns/commit/4b8783dc36d327ad95b711db39054d64bd718344" class="message" data-pjax="true" title="Merge pull request #202 from SHLo/support-custom-tags
+
+Support for custom tagging #109">Merge pull request</a> <a href="https://github.com/newsapps/beeswithmachineguns/pull/202" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="283532841" data-permission-text="Issue title is private" data-url="https://github.com/newsapps/beeswithmachineguns/issues/202">#202</a> <a href="https://github.com/newsapps/beeswithmachineguns/commit/4b8783dc36d327ad95b711db39054d64bd718344" class="message" data-pjax="true" title="Merge pull request #202 from SHLo/support-custom-tags
+
+Support for custom tagging #109">from SHLo/support-custom-tags</a>
+        <span class="hidden-text-expander inline">
+          <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+        </span>
+
+      <div class="commit-desc"><pre class="text-small">Support for custom tagging <a href="https://github.com/newsapps/beeswithmachineguns/issues/109" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="59484596" data-permission-text="Issue title is private" data-url="https://github.com/newsapps/beeswithmachineguns/issues/109">#109</a></pre></div>
+
+        </div>
+      </div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="https://github.com/newsapps/beeswithmachineguns/tree/4b8783dc36d327ad95b711db39054d64bd718344">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="beeswithmachineguns" id="905f3643dfb57600321323d256853db5-ebac02c385c41051de5ba3c3e6c92cb3247e848d" href="https://github.com/newsapps/beeswithmachineguns/tree/master/beeswithmachineguns">beeswithmachineguns</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Support for custom tagging #109" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/beecddb0aef56cd3cacaa5c8000a7ff59c1a4bfd">Support for custom tagging</a> <a href="https://github.com/newsapps/beeswithmachineguns/issues/109" class="issue-link js-issue-link" data-error-text="Failed to load issue title" data-id="59484596" data-permission-text="Issue title is private" data-url="https://github.com/newsapps/beeswithmachineguns/issues/109">#109</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-12-20T11:25:35Z">Dec 20, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="test" id="098f6bcd4621d373cade4e832627b4f6-9d1dcfdaf1a6857c5f83dc27019c7600e1ffaff8" href="https://github.com/newsapps/beeswithmachineguns/tree/master/test">test</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="beginning of a test suite for bees" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/4e1a46b41e1ee12f6b107eef47fe34056e95a6bc">beginning of a test suite for bees</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-19T20:12:18Z">Feb 19, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-11b8855810605ec3b7cfa121c0e34ff2c2e22a06" href="https://github.com/newsapps/beeswithmachineguns/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Modified the bees.py file because its buggy and did not function as intended. The other files are self explanatory." class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/9c99f1369b245b34e696fccfdc6b461c1effbea7">Modified the bees.py file because its buggy and did not function as i…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-12-12T02:15:17Z">Dec 12, 2015</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="COPYING" id="7116ef0705885343c9e1b2171a06be0e-68ceded7245b667fcfa8d20d65692eff821f3c0f" itemprop="license" href="https://github.com/newsapps/beeswithmachineguns/blob/master/COPYING">COPYING</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Updated COPYING." class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/c3d0b50fd7647f678a49d512702bb5d1234c93b3">Updated COPYING.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2010-10-28T03:54:28Z">Oct 28, 2010</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.textile" id="8aa641a619b8ebeca0116d41774daf45-92c3a5dc67ce0977d0951c7eac209d0e78bb7d5d" href="https://github.com/newsapps/beeswithmachineguns/blob/master/README.textile">README.textile</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Tweaking readme troubleshooting" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/cf47b83343eccb3edad57d48078db40b50f154c6">Tweaking readme troubleshooting</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-11-16T16:52:35Z">Nov 16, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="bees" id="fc241ec2669cc09d984b5ce23f71ffca-2d9c5247d55d262ad57207398a6755221475a34b" href="https://github.com/newsapps/beeswithmachineguns/blob/master/bees">bees</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Wrap main.main() in if __name__ == &#39;__main__&#39;" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/dfcfd982cfde30827b9d4d256e51fb0db685b80b">Wrap main.main() in if __name__ == '__main__'</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2012-02-16T20:24:39Z">Feb 16, 2012</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="regions.json" id="a74081974453559ef8b6bab5e7206608-f8d2b76dc9d4ec8b6cea7de2fa99f62cc1be50bd" href="https://github.com/newsapps/beeswithmachineguns/blob/master/regions.json">regions.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="update regional ami mapping" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/bc0cc2de639e47c6498b487a8a108b4c4e3ea737">update regional ami mapping</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-10-05T20:02:51Z">Oct 5, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="requirements.txt" id="b4ef698db8ca845e5845c4618278f29a-a59b51971c0e98ab322da9ebbf3be3f021043c65" href="https://github.com/newsapps/beeswithmachineguns/blob/master/requirements.txt">requirements.txt</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="removing unused import &quot;sets&quot; and adding &quot;future&quot; to requirements" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/ef865bae7975b82769650cba91014aed24504fe1">removing unused import "sets" and adding "future" to requirements</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-19T18:22:42Z">Feb 19, 2017</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"/></svg>
+            <img width="16" height="16" class="spinner" alt="" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="setup.py" id="2eeaed663bd0d25b7e608891384b7298-f8d96651a05c70ec407b76a6a6e48af490c15f5d" href="https://github.com/newsapps/beeswithmachineguns/blob/master/setup.py">setup.py</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="- Use setuptools instead of distutils if possible" class="message" href="https://github.com/newsapps/beeswithmachineguns/commit/345d140ce8ec44fd2d5a2ab48c492d47761b50c3">- Use setuptools instead of distutils if possible</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-03-24T04:21:58Z">Mar 24, 2015</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body textile">
+    <h3>
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
+      README.textile
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h4><a href="#bees-with-machine-guns" aria-hidden="true" class="anchor" id="user-content-bees-with-machine-guns"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bees with Machine Guns!</h4>
+<p>A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).</p>
+<p>Also, retribution for <a href="http://kottke.org/10/10/tiny-catapult-for-throwing-pies-at-bees" rel="nofollow">this shameful act</a> against a proud hive.</p>
+<h2><a href="#dependencies" aria-hidden="true" class="anchor" id="user-content-dependencies"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dependencies</h2>
+<ul>
+	<li>Python 2.6 – 3.6</li>
+	<li>boto</li>
+	<li>paramiko</li>
+</ul>
+<h2><a href="#installation-for-users" aria-hidden="true" class="anchor" id="user-content-installation-for-users"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation for users</h2>
+<pre>pip install https://github.com/newsapps/beeswithmachineguns/archive/master.zip
+</pre>
+<h2><a href="#installation-for-developers-w-virtualenv--virtualenvwrapper" aria-hidden="true" class="anchor" id="user-content-installation-for-developers-w-virtualenv--virtualenvwrapper"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation for developers (w/ virtualenv + virtualenvwrapper)</h2>
+<pre>git clone git://github.com/newsapps/beeswithmachineguns.git
+cd beeswithmachineguns
+mkvirtualenv --no-site-packages beesenv
+easy_install pip
+pip install -r requirements.txt
+</pre>
+<h2><a href="#configuring-aws-credentials" aria-hidden="true" class="anchor" id="user-content-configuring-aws-credentials"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuring AWS credentials</h2>
+<p>Bees uses boto to communicate with EC2 and thus supports all the same methods of storing credentials that it does.  These include declaring environment variables, machine-global configuration files, and per-user configuration files. You can read more about these options on <a href="http://code.google.com/p/boto/wiki/BotoConfig" rel="nofollow">boto’s configuration page</a>.</p>
+<p>At minimum, create a .boto file in your home directory with the following contents:</p>
+<pre>[Credentials]
+aws_access_key_id = &lt;your access key&gt;
+aws_secret_access_key = &lt;your secret key&gt;
+</pre>
+<p>The credentials used must have sufficient access to EC2.</p>
+<p>Make sure the .boto file is only accessible by the current account:</p>
+<pre>chmod 600 .boto
+</pre>
+<h2><a href="#usage" aria-hidden="true" class="anchor" id="user-content-usage"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h2>
+<p>A typical bees session looks something like this:</p>
+<pre>bees up -s 4 -g public -k frakkingtoasters
+bees attack -n 10000 -c 250 -u http://www.ournewwebbyhotness.com/
+bees down
+</pre>
+<p>A bees session where this is being called from a python file, while specifying content type and a payload file.<br>
+This is a working example, all of these objects exist in the us-east-1 region.</p>
+<pre>import bees
+import json
+
+sOptions = '{"post_file":"data.json","contenttype":"application/json"}'
+options = json.loads(sOptions)
+
+bees.up(1,'bees-sg','us-east-1b','ami-5d155d37','m3.medium','ubuntu','commerce-bees','subnet-b12880e8')
+bees.attack('&lt;URL TO TEST&gt;',2,2,**options)
+bees.down()
+</pre>
+<p>In this case the data.json is a simple json file, mind the path.</p>
+<p>This spins up 4 servers in security group ‘public’ using the EC2 keypair ‘frakkingtoasters’, whose private key is expected to reside at ~/.ssh/frakkingtoasters.pem.</p>
+<p><strong>Note</strong>: the default EC2 security group is called ‘default’ and by default it locks out SSH access. I recommend creating a ‘public’ security group for use with the bees and explicitly opening port 22 on that group.</p>
+<p>It then uses those 4 servers to send 10,000 requests, 250 at a time, to attack OurNewWebbyHotness.com.</p>
+<p>Lastly, it spins down the 4 servers.  <strong>Please remember to do this</strong>—we aren’t responsible for your EC2 bills.</p>
+<p>If you wanted 3 agents requesting url A and one requesting url B, your attack would look as follows (empty url → use previous):</p>
+<pre>bees attack -n 10000 -c 250 -u 'http://url.a,,,http://url.b'
+</pre>
+<p>For complete options type:</p>
+<pre>bees -h
+</pre>
+<h2><a href="#introduction-to-additions" aria-hidden="true" class="anchor" id="user-content-introduction-to-additions"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction to additions:</h2>
+<h4><a href="#additions-contributed-hurl-integration-and-multi-regional-testing" aria-hidden="true" class="anchor" id="user-content-additions-contributed-hurl-integration-and-multi-regional-testing"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Additions contributed Hurl integration and multi regional testing.</h4>
+<strong>hurl</strong> is an http server load tester similar to ab/siege/weighttp/wrk with support for multithreading, parallelism, ssl, url ranges, and an api-server for querying the running performance statistics.  <strong>hurl</strong> is primarily useful for benchmarking http server applications.
+<p>For more information about <strong>hurl</strong> please visit <a href="https://github.com/VerizonDigital/hlx">https://github.com/VerizonDigital/hlx</a></p>
+Multi regional testing was added so user can call up multiple bees from different regions simultaneously. Users have the ability to “up”, “attack”, and  “down” instances from single command. “regions.json” file is supplied which contains public ami images with hurl pre installed for all regions.
+<p><strong>What kind of changes were made that’s different from the old?</strong><br>
+  Instead of writing bees information into a single ~/.bees file, each zone recognized in arguments creates a new unique bees file. Bees.py was modified to read these files. Up, attack, and down functions are run with threads.</p>
+<p>example .bees files in user home directory</p>
+<pre>$ ls ~/.bees* | xargs -0 basename
+.bees.ap-southeast-1b
+.bees.eu-west-1b
+.bees.us-west-2b
+</pre>
+<h4><a href="#motivation" aria-hidden="true" class="anchor" id="user-content-motivation"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Motivation</h4>
+<p>Having the ability to generate a lot of HTTPS requests from many different regions around the world allows us to better test our platforms and services. This is also real helpful when there are tools that need to be tested for such things as location of requests.</p>
+<h4><a href="#hurl-usage" aria-hidden="true" class="anchor" id="user-content-hurl-usage"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hurl Usage</h4>
+<h4><a href="#bees-up" aria-hidden="true" class="anchor" id="user-content-bees-up"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bees up</h4>
+Command line arguments are still the same however to add multiple zones with multiple amis, the values must be comma delimited. The ami and zones must also be in same order for it to work. So for example “-i ami-zone1,ami-zone2,ami-zone3 -z zone1,zone2,zone3”.
+
+
+<pre>  ./bees up -s 2 -k bees -g bees2 -l ubuntu -i ami-9342c0e0,ami-fd489d
+9e,ami-e8c93e88 -z eu-west-1b,ap-southeast-1b,us-west-2b
+</pre>
+<h4><a href="#bees-attack" aria-hidden="true" class="anchor" id="user-content-bees-attack"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bees attack</h4>
+In order to use the hurl platform, —hurl or -j must be supplied. Attacks will run concurrently and return a summarized output. The output is summarized per region. More information can be seen if user supplies the -o, —long_output options.
+
+<pre>./bees attack --hurl -u $testurl -S20 -M1000 -H "Accept : text/html"
+</pre>
+<h4><a href="#bees-down" aria-hidden="true" class="anchor" id="user-content-bees-down"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>bees down</h4>
+Bringing down bees is the same and will bring down all bees for all regions
+
+<pre>./bees down
+</pre>
+<p><strong>regions used</strong>: eu-west-1b,ap-southeast-1b,us-west-2b</p>
+<p>Some options were added to work with hurl</p>
+<h4><a href="#examples" aria-hidden="true" class="anchor" id="user-content-examples"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h4>
+<pre>$ ./bees --help
+Usage: 
+bees COMMAND [options]
+
+Bees with Machine Guns
+
+A utility for arming (creating) many bees (small EC2 instances) to attack
+(load test) targets (web applications).
+
+commands:
+  up      Start a batch of load testing servers.
+  attack  Begin the attack on a specific url.
+  down    Shutdown and deactivate the load testing servers.
+  report  Report the status of the load testing servers.
+    
+
+Options:
+  -h, --help            show this help message and exit
+
+  up:
+    In order to spin up new servers you will need to specify at least the
+    -k command, which is the name of the EC2 keypair to use for creating
+    and connecting to the new servers. The bees will expect to find a .pem
+    file with this name in ~/.ssh/. Alternatively, bees can use SSH Agent
+    for the key.
+
+    -k KEY, --key=KEY   The ssh key pair name to use to connect to the new
+                        servers.
+    -s SERVERS, --servers=SERVERS
+                        The number of servers to start (default: 5).
+    -g GROUP, --group=GROUP
+                        The security group(s) to run the instances under
+                        (default: default).
+    -z ZONE, --zone=ZONE
+                        The availability zone to start the instances in
+                        (default: us-east-1d).
+    -i INSTANCE, --instance=INSTANCE
+                        The instance-id to use for each server from (default:
+                        ami-ff17fb96).
+    -t TYPE, --type=TYPE
+                        The instance-type to use for each server (default:
+                        t1.micro).
+    -l LOGIN, --login=LOGIN
+                        The ssh username name to use to connect to the new
+                        servers (default: newsapps).
+    -v SUBNET, --subnet=SUBNET
+                        The vpc subnet id in which the instances should be
+                        launched. (default: None).
+    -b BID, --bid=BID   The maximum bid price per spot instance (default:
+                        None).
+
+  attack:
+    Beginning an attack requires only that you specify the -u option with
+    the URL you wish to target.
+
+    -u URL, --url=URL   URL of the target to attack.
+    -K KEEP_ALIVE, --keepalive=KEEP_ALIVE
+                        Keep-Alive connection.
+    -p POST_FILE, --post-file=POST_FILE
+                        The POST file to deliver with the bee's payload.
+    -m MIME_TYPE, --mime-type=MIME_TYPE
+                        The MIME type to send with the request.
+    -n NUMBER, --number=NUMBER
+                        The number of total connections to make to the target
+                        (default: 1000).
+    -C COOKIES, --cookies=COOKIES
+                        Cookies to send during http requests. The cookies
+                        should be passed using standard cookie formatting,
+                        separated by semi-colons and assigned with equals
+                        signs.
+    -Z CIPHERS, --ciphers=CIPHERS
+                        Openssl SSL/TLS cipher name(s) to use for negotiation.  Passed
+                        directly to ab's -Z option.  ab-only.
+    -c CONCURRENT, --concurrent=CONCURRENT
+                        The number of concurrent connections to make to the
+                        target (default: 100).
+    -H HEADERS, --headers=HEADERS
+                        HTTP headers to send to the target to attack. Multiple
+                        headers should be separated by semi-colons, e.g
+                        header1:value1;header2:value2
+    -e FILENAME, --csv=FILENAME
+                        Store the distribution of results in a csv file for
+                        all completed bees (default: '').
+    -P CONTENTTYPE, --contenttype=CONTENTTYPE
+                        ContentType header to send to the target of the
+                        attack.
+    -S SECONDS, --seconds=SECONDS
+                        hurl only: The number of total seconds to attack the
+                        target (default: 60).
+    -X VERB, --verb=VERB
+                        hurl only: Request command -HTTP verb to use
+                        -GET/PUT/etc. Default GET
+    -M RATE, --rate=RATE
+                        hurl only: Max Request Rate.
+    -a THREADS, --threads=THREADS
+                        hurl only: Number of parallel threads. Default: 1
+    -f FETCHES, --fetches=FETCHES
+                        hurl only: Num fetches per instance.
+    -d TIMEOUT, --timeout=TIMEOUT
+                        hurl only: Timeout (seconds).
+    -E SEND_BUFFER, --send_buffer=SEND_BUFFER
+                        hurl only: Socket send buffer size.
+    -F RECV_BUFFER, --recv_buffer=RECV_BUFFER
+                        hurl only: Socket receive buffer size.
+    -T TPR, --tpr=TPR   The upper bounds for time per request. If this option
+                        is passed and the target is below the value a 1 will
+                        be returned with the report details (default: None).
+    -R RPS, --rps=RPS   The lower bounds for request per second. If this
+                        option is passed and the target is above the value a 1
+                        will be returned with the report details (default:
+                        None).
+    -A basic_auth, --basic_auth=basic_auth
+                        BASIC authentication credentials, format auth-
+                        username:password (default: None).
+    -j, --hurl          use hurl
+    -o, --long_output   display hurl output
+    -L, --responses_per
+                        hurl only: Display http(s) response codes per interval
+                        instead of request statistics
+</pre>
+<p>A bringing up bees example</p>
+<pre>$ ./bees up -s 2 -k bees -g bees2 -l ubuntu -i ami-9342c0e0,ami-fd489d
+9e,ami-e8c93e88 -z eu-west-1b,ap-southeast-1b,us-west-2b
+Connecting to the hive.
+GroupId found: bees2
+Placement: eu-west-1b
+Attempting to call up 2 bees.
+Connecting to the hive.
+GroupId found: bees2
+Placement: ap-southeast-1b
+Attempting to call up 2 bees.
+Connecting to the hive.
+GroupId found: bees2
+Placement: us-west-2b
+Attempting to call up 2 bees.
+Waiting for bees to load their machine guns...
+Waiting for bees to load their machine guns...
+.
+Waiting for bees to load their machine guns...
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Bee i-5568c1d9 is ready for the attack.
+Bee i-5668c1da is ready for the attack.
+Bee i-2cf8aba2 is ready for the attack.
+The swarm has assembled 2 bees.
+Bee i-2bf8aba5 is ready for the attack.
+The swarm has assembled 2 bees.
+Bee i-d05a6c08 is ready for the attack.
+Bee i-d15a6c09 is ready for the attack.
+The swarm has assembled 2 bees.
+
+$ ./bees report
+Read 2 bees from the roster: eu-west-1b
+Bee i-5568c1d9: running @ 54.194.192.20
+Bee i-5668c1da: running @ 54.194.197.233
+Read 2 bees from the roster: ap-southeast-1b
+Bee i-2cf8aba2: running @ 52.77.228.132
+Bee i-2bf8aba5: running @ 52.221.250.224
+Read 2 bees from the roster: us-west-2b
+Bee i-d05a6c08: running @ 54.187.100.142
+Bee i-d15a6c09: running @ 54.201.177.125
+</pre>
+<p>A bees attack example</p>
+<pre>$ ./bees attack --hurl -u $testurl -S20 -M1000 -H "Accept : text/html"
+eu-west-1b
+Read 2 bees from the roster: eu-west-1b
+Connecting to the hive.
+Assembling bees.
+ap-southeast-1b
+Read 2 bees from the roster: ap-southeast-1b
+Connecting to the hive.
+Assembling bees.
+us-west-2b
+Read 2 bees from the roster: us-west-2b
+Connecting to the hive.
+Assembling bees.
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Bee 1 is firing her machine gun. Bang bang!
+Bee 0 is firing her machine gun. Bang bang!
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Bee 1 is firing her machine gun. Bang bang!
+Bee 0 is firing her machine gun. Bang bang!
+Bee 0 is firing her machine gun. Bang bang!
+Bee 1 is firing her machine gun. Bang bang!
+Offensive complete.
+
+Summarized Results
+     Total bytes:               32806393
+     Seconds:                   20
+     Connect-ms-max:            8.751000
+     1st-resp-ms-max:           288.797000
+     1st-resp-ms-mean:          41.120797
+     Fetches/sec mean:          881.607553
+     connect-ms-min:            0.000000
+     Total fetches:             35274
+     bytes/sec mean:            819934.329261
+     end2end-ms-min mean:       7.538500
+     mean-bytes-per-conn:       930.044494
+     connect-ms-mean:           0.022659
+
+Response Codes:
+     2xx:                       372
+     3xx:                       0
+     4xx:                       34802
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+Offensive complete.
+
+Summarized Results
+     Total bytes:               7820249
+     Seconds:                   20
+     Connect-ms-max:            198.442000
+     1st-resp-ms-max:           799.969000
+     1st-resp-ms-mean:          183.104679
+     Fetches/sec mean:          265.758560
+     connect-ms-min:            0.000000
+     Total fetches:             10633
+     bytes/sec mean:            195457.360660
+     end2end-ms-min mean:       167.372500
+     mean-bytes-per-conn:       735.470800
+     connect-ms-mean:           1.685486
+
+Response Codes:
+     2xx:                       423
+     3xx:                       0
+     4xx:                       10110
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+Offensive complete.
+
+Summarized Results
+     Total bytes:               26038521
+     Seconds:                   20
+     Connect-ms-max:            15.233000
+     1st-resp-ms-max:           401.819000
+     1st-resp-ms-mean:          42.217669
+     Fetches/sec mean:          873.584785
+     connect-ms-min:            0.000000
+     Total fetches:             34953
+     bytes/sec mean:            650784.075365
+     end2end-ms-min mean:       11.345000
+     mean-bytes-per-conn:       744.958106
+     connect-ms-mean:           0.037327
+
+Response Codes:
+     2xx:                       411
+     3xx:                       0
+     4xx:                       34442
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+</pre>
+<p>A bees attack example with —long_output</p>
+<pre>$ ./bees attack --hurl -u $testurl -S20 -M1000 -H "Accept : text/html" --long_output
+eu-west-1b
+Read 2 bees from the roster: eu-west-1b
+Connecting to the hive.
+Assembling bees.
+ap-southeast-1b
+Read 2 bees from the roster: ap-southeast-1b
+Connecting to the hive.
+Assembling bees.
+us-west-2b
+Read 2 bees from the roster: us-west-2b
+Connecting to the hive.
+Assembling bees.
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Each of 2 bees will fire 500 rounds, 50 at a time.
+Stinging URL so it will be cached for the attack.
+Organizing the swarm.
+Bee 0 is joining the swarm.
+Bee 1 is joining the swarm.
+Bee 0 is firing her machine gun. Bang bang!
+Bee 1 is firing her machine gun. Bang bang!
+Bee 1 is firing her machine gun. Bang bang!
+Bee 0 is firing her machine gun. Bang bang!
+Bee 0 is firing her machine gun. Bang bang!
+Bee 1 is firing her machine gun. Bang bang!
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.aAojMFs3ob -l 20 -A 1000 -j
+
+i-fb457323
+ec2-54-186-204-52.us-west-2.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       505 /       505 |         0 |         0 |       313.02 |     1.00s |    1007.98s |     0.61s |
+|       970 /       970 |         0 |         0 |       633.81 |     1.50s |     930.00s |     0.63s |
+|      1442 /      1442 |         0 |         0 |       961.08 |     2.00s |     944.00s |     0.64s |
+|      1900 /      1900 |         0 |         0 |      1276.81 |     2.50s |     916.00s |     0.62s |
+|      2376 /      2376 |         0 |         0 |      1606.85 |     3.00s |     952.00s |     0.64s |
+|      2835 /      2835 |         0 |         0 |      1922.85 |     3.50s |     918.00s |     0.62s |
+|      3310 /      3310 |         0 |         0 |      2252.20 |     4.00s |     950.00s |     0.64s |
+|      3769 /      3769 |         0 |         0 |      2568.62 |     4.50s |     918.00s |     0.62s |
+|      4243 /      4243 |         0 |         0 |      2897.27 |     5.00s |     946.11s |     0.64s |
+|      4706 /      4706 |         0 |         0 |      3215.84 |     5.50s |     926.00s |     0.62s |
+|      5178 /      5178 |         0 |         0 |      3543.10 |     6.00s |     944.00s |     0.64s |
+|      5641 /      5641 |         0 |         0 |      3862.09 |     6.50s |     926.00s |     0.62s |
+|      6114 /      6114 |         0 |         0 |      4190.05 |     7.00s |     946.00s |     0.64s |
+|      6581 /      6581 |         0 |         0 |      4511.81 |     7.50s |     934.00s |     0.63s |
+|      7053 /      7053 |         0 |         0 |      4839.07 |     8.00s |     944.00s |     0.64s |
+|      7514 /      7514 |         0 |         0 |      5156.25 |     8.50s |     922.00s |     0.62s |
+|      7975 /      7975 |         0 |         0 |      5475.88 |     9.00s |     920.16s |     0.62s |
+|      8450 /      8450 |         0 |         0 |      5803.62 |     9.50s |     950.00s |     0.64s |
+|      8910 /      8910 |         0 |         0 |      6122.53 |    10.00s |     920.00s |     0.62s |
+|      9382 /      9382 |         0 |         0 |      6447.58 |    10.50s |     944.00s |     0.63s |
+|      9844 /      9844 |         0 |         0 |      6766.37 |    11.00s |     924.00s |     0.62s |
+|     10316 /     10316 |         0 |         0 |      7093.14 |    11.50s |     944.00s |     0.64s |
+|     10778 /     10778 |         0 |         0 |      7411.51 |    12.00s |     924.00s |     0.62s |
+|     11250 /     11250 |         0 |         0 |      7738.70 |    12.50s |     944.00s |     0.64s |
+|     11710 /     11710 |         0 |         0 |      8056.08 |    13.00s |     920.00s |     0.62s |
+|     12184 /     12184 |         0 |         0 |      8384.46 |    13.50s |     946.11s |     0.64s |
+|     12644 /     12644 |         0 |         0 |      8701.20 |    14.00s |     920.00s |     0.62s |
+|     13119 /     13119 |         0 |         0 |      9030.51 |    14.50s |     950.00s |     0.64s |
+|     13582 /     13582 |         0 |         0 |      9349.72 |    15.00s |     926.00s |     0.62s |
+|     14053 /     14053 |         0 |         0 |      9676.28 |    15.50s |     942.00s |     0.64s |
+|     14516 /     14516 |         0 |         0 |      9994.85 |    16.00s |     926.00s |     0.62s |
+|     14987 /     14987 |         0 |         0 |     10321.41 |    16.50s |     942.00s |     0.64s |
+|     15450 /     15450 |         0 |         0 |     10640.41 |    17.00s |     926.00s |     0.62s |
+|     15922 /     15922 |         0 |         0 |     10967.66 |    17.50s |     944.00s |     0.64s |
+|     16386 /     16386 |         0 |         0 |     11287.13 |    18.00s |     926.15s |     0.62s |
+|     16386 /     16386 |         0 |         0 |     11287.13 |    18.50s |       0.00s |     0.00s |
+|     16855 /     16855 |         0 |         0 |     11612.32 |    19.00s |     938.00s |     0.64s |
+|     17320 /     17320 |         0 |         0 |     11932.69 |    19.50s |     930.00s |     0.63s |
+|     17794 /     17794 |         0 |         0 |     12261.34 |    20.00s |     948.00s |     0.64s |
+
+Bee: i-fb457323
+max-parallel:           50
+1st-resp-ms-min:        10.036
+response-codes
+        200:            184
+        403:            17560
+seconds:                20.006
+connect-ms-max:         8.729
+1st-resp-ms-max:        130.893
+bytes:                  16541472.0
+1st-resp-ms-mean:       40.5336982642
+end2end-ms-mean:        40.5487644838
+fetches-per-sec:        889.433170049
+connect-ms-min:         0.0
+fetches:                17794
+bytes-per-sec:          826825.552334
+end2end-ms-min:         10.053
+end2end-ms-max:         130.907
+mean-bytes-per-conn:    929.609531303
+connect-ms-mean:        0.0224927299369
+
+
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.PkGEethemi -l 20 -A 1000 -j
+
+i-fa457322
+ec2-54-186-127-166.us-west-2.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       499 /       499 |         0 |         0 |       309.51 |     1.00s |     998.00s |     0.60s |
+|       965 /       965 |         0 |         0 |       631.24 |     1.50s |     930.14s |     0.63s |
+|      1435 /      1435 |         0 |         0 |       957.58 |     2.00s |     940.00s |     0.64s |
+|      1900 /      1900 |         0 |         0 |      1279.25 |     2.50s |     930.00s |     0.63s |
+|      2373 /      2373 |         0 |         0 |      1607.67 |     3.00s |     946.00s |     0.64s |
+|      2834 /      2834 |         0 |         0 |      1925.72 |     3.50s |     922.00s |     0.62s |
+|      3306 /      3306 |         0 |         0 |      2253.45 |     4.00s |     944.00s |     0.64s |
+|      3781 /      3781 |         0 |         0 |      2581.00 |     4.50s |     950.00s |     0.64s |
+|      4246 /      4246 |         0 |         0 |      2903.87 |     5.00s |     928.14s |     0.63s |
+|      4701 /      4701 |         0 |         0 |      3217.97 |     5.50s |     910.00s |     0.61s |
+|      5181 /      5181 |         0 |         0 |      3551.25 |     6.00s |     960.00s |     0.65s |
+|      5666 /      5666 |         0 |         0 |      3885.54 |     6.50s |     970.00s |     0.65s |
+|      6135 /      6135 |         0 |         0 |      4210.28 |     7.00s |     938.00s |     0.63s |
+|      6605 /      6605 |         0 |         0 |      4535.90 |     7.50s |     940.00s |     0.64s |
+|      7072 /      7072 |         0 |         0 |      4857.96 |     8.00s |     934.00s |     0.63s |
+|      7553 /      7553 |         0 |         0 |      5191.88 |     8.50s |     962.00s |     0.65s |
+|      8020 /      8020 |         0 |         0 |      5514.13 |     9.00s |     932.14s |     0.63s |
+|      8497 /      8497 |         0 |         0 |      5845.30 |     9.50s |     954.00s |     0.65s |
+|      8966 /      8966 |         0 |         0 |      6168.91 |    10.00s |     938.00s |     0.63s |
+|      9437 /      9437 |         0 |         0 |      6495.93 |    10.50s |     942.00s |     0.64s |
+|      9921 /      9921 |         0 |         0 |      6829.96 |    11.00s |     968.00s |     0.65s |
+|     10389 /     10389 |         0 |         0 |      7154.90 |    11.50s |     936.00s |     0.63s |
+|     10389 /     10389 |         0 |         0 |      7154.90 |    12.00s |       0.00s |     0.00s |
+|     10857 /     10857 |         0 |         0 |      7477.18 |    12.50s |     936.00s |     0.63s |
+|     11323 /     11323 |         0 |         0 |      7800.74 |    13.00s |     932.00s |     0.63s |
+|     11790 /     11790 |         0 |         0 |      8124.22 |    13.50s |     932.14s |     0.63s |
+|     12257 /     12257 |         0 |         0 |      8448.48 |    14.00s |     934.00s |     0.63s |
+|     12718 /     12718 |         0 |         0 |      8765.89 |    14.50s |     922.00s |     0.62s |
+|     13191 /     13191 |         0 |         0 |      9094.32 |    15.00s |     946.00s |     0.64s |
+|     13670 /     13670 |         0 |         0 |      9424.86 |    15.50s |     958.00s |     0.65s |
+|     14133 /     14133 |         0 |         0 |      9746.34 |    16.00s |     926.00s |     0.63s |
+|     14603 /     14603 |         0 |         0 |     10070.01 |    16.50s |     940.00s |     0.63s |
+|     15067 /     15067 |         0 |         0 |     10392.18 |    17.00s |     928.00s |     0.63s |
+|     15532 /     15532 |         0 |         0 |     10712.58 |    17.50s |     928.14s |     0.62s |
+|     16012 /     16012 |         0 |         0 |     11045.87 |    18.00s |     960.00s |     0.65s |
+|     16487 /     16487 |         0 |         0 |     11372.79 |    18.50s |     950.00s |     0.64s |
+|     16963 /     16963 |         0 |         0 |     11703.30 |    19.00s |     952.00s |     0.65s |
+|     17451 /     17451 |         0 |         0 |     12040.73 |    19.50s |     976.00s |     0.66s |
+|     17919 /     17919 |         0 |         0 |     12365.67 |    20.00s |     936.00s |     0.63s |
+
+Bee: i-fa457322
+max-parallel:           50
+1st-resp-ms-min:        7.623
+response-codes
+        200:            183
+        403:            17686
+seconds:                20.006
+connect-ms-max:         8.547
+1st-resp-ms-max:        140.328
+bytes:                  16676307.0
+1st-resp-ms-mean:       39.7687282444
+end2end-ms-mean:        39.7864872125
+fetches-per-sec:        895.681295611
+connect-ms-min:         0.0
+fetches:                17919
+bytes-per-sec:          833565.280416
+end2end-ms-min:         7.636
+end2end-ms-max:         140.342
+mean-bytes-per-conn:    930.649422401
+connect-ms-mean:        0.0225320387263
+
+
+Offensive complete.
+
+Summarized Results
+     Total bytes:               33217779
+     Seconds:                   20
+     Connect-ms-max:            8.729000
+     1st-resp-ms-max:           140.328000
+     1st-resp-ms-mean:          40.151213
+     Fetches/sec mean:          892.557233
+     connect-ms-min:            0.000000
+     Total fetches:             35713
+     bytes/sec mean:            830195.416375
+     end2end-ms-min mean:       8.844500
+     mean-bytes-per-conn:       930.129477
+     connect-ms-mean:           0.022512
+
+Response Codes:
+     2xx:                       367
+     3xx:                       0
+     4xx:                       35246
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.L7eQsLiKs9 -l 20 -A 1000 -j
+
+i-9e6fc612
+ec2-54-194-180-232.eu-west-1.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       484 /       484 |         0 |         0 |       220.82 |     1.00s |     968.00s |     0.43s |
+|       957 /       957 |         0 |         0 |       463.33 |     1.50s |     944.11s |     0.47s |
+|      1409 /      1409 |         0 |         0 |       692.96 |     2.00s |     904.00s |     0.45s |
+|      1872 /      1872 |         0 |         0 |       930.33 |     2.50s |     926.00s |     0.46s |
+|      2345 /      2345 |         0 |         0 |      1170.94 |     3.00s |     946.00s |     0.47s |
+|      2803 /      2803 |         0 |         0 |      1405.75 |     3.50s |     916.00s |     0.46s |
+|      3259 /      3259 |         0 |         0 |      1637.65 |     4.00s |     912.00s |     0.45s |
+|      3729 /      3729 |         0 |         0 |      1878.61 |     4.50s |     940.00s |     0.47s |
+|      4190 /      4190 |         0 |         0 |      2112.86 |     5.00s |     922.00s |     0.46s |
+|      4645 /      4645 |         0 |         0 |      2346.13 |     5.50s |     908.18s |     0.45s |
+|      5108 /      5108 |         0 |         0 |      2581.82 |     6.00s |     926.00s |     0.46s |
+|      5566 /      5566 |         0 |         0 |      2816.64 |     6.50s |     916.00s |     0.46s |
+|      6035 /      6035 |         0 |         0 |      3055.19 |     7.00s |     938.00s |     0.47s |
+|      6501 /      6501 |         0 |         0 |      3294.11 |     7.50s |     932.00s |     0.47s |
+|      6928 /      6928 |         0 |         0 |      3510.92 |     8.00s |     854.00s |     0.42s |
+|      7381 /      7381 |         0 |         0 |      3743.17 |     8.50s |     906.00s |     0.45s |
+|      7851 /      7851 |         0 |         0 |      3981.82 |     9.00s |     940.00s |     0.47s |
+|      8308 /      8308 |         0 |         0 |      4216.12 |     9.50s |     912.18s |     0.46s |
+|      8757 /      8757 |         0 |         0 |      4444.00 |    10.00s |     898.00s |     0.45s |
+|      9218 /      9218 |         0 |         0 |      4680.35 |    10.50s |     922.00s |     0.46s |
+|      9690 /      9690 |         0 |         0 |      4920.66 |    11.00s |     944.00s |     0.47s |
+|     10158 /     10158 |         0 |         0 |      5159.12 |    11.50s |     936.00s |     0.47s |
+|     10627 /     10627 |         0 |         0 |      5398.73 |    12.00s |     938.00s |     0.47s |
+|     11104 /     11104 |         0 |         0 |      5641.39 |    12.50s |     954.00s |     0.47s |
+|     11576 /     11576 |         0 |         0 |      5883.38 |    13.00s |     944.00s |     0.47s |
+|     12056 /     12056 |         0 |         0 |      6126.94 |    13.50s |     960.00s |     0.48s |
+|     12528 /     12528 |         0 |         0 |      6368.94 |    14.00s |     942.12s |     0.47s |
+|     12997 /     12997 |         0 |         0 |      6606.86 |    14.50s |     938.00s |     0.46s |
+|     13447 /     13447 |         0 |         0 |      6837.57 |    15.00s |     900.00s |     0.45s |
+|     13899 /     13899 |         0 |         0 |      7067.20 |    15.50s |     904.00s |     0.45s |
+|     14378 /     14378 |         0 |         0 |      7312.78 |    16.00s |     958.00s |     0.48s |
+|     14815 /     14815 |         0 |         0 |      7534.72 |    16.50s |     874.00s |     0.43s |
+|     14815 /     14815 |         0 |         0 |      7534.72 |    17.00s |       0.00s |     0.00s |
+|     15290 /     15290 |         0 |         0 |      7778.25 |    17.50s |     950.00s |     0.48s |
+|     15743 /     15743 |         0 |         0 |      8008.39 |    18.00s |     904.19s |     0.45s |
+|     16218 /     16218 |         0 |         0 |      8251.92 |    18.50s |     950.00s |     0.48s |
+|     16676 /     16676 |         0 |         0 |      8484.63 |    19.00s |     916.00s |     0.45s |
+|     17138 /     17138 |         0 |         0 |      8721.49 |    19.50s |     924.00s |     0.46s |
+|     17597 /     17597 |         0 |         0 |      8954.50 |    20.00s |     918.00s |     0.46s |
+
+Bee: i-9e6fc612
+max-parallel:           50
+1st-resp-ms-min:        11.354
+response-codes
+        200:            198
+        403:            17349
+seconds:                20.006
+connect-ms-max:         15.13
+1st-resp-ms-max:        376.028
+bytes:                  13111135.0
+1st-resp-ms-mean:       41.7301567789
+end2end-ms-mean:        41.7460330541
+fetches-per-sec:        879.586124163
+connect-ms-min:         0.0
+fetches:                17597
+bytes-per-sec:          655360.141957
+end2end-ms-min:         11.37
+end2end-ms-max:         376.044
+mean-bytes-per-conn:    745.07785418
+connect-ms-mean:        0.0346185102867
+
+
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.cDsfCaHBDo -l 20 -A 1000 -j
+
+i-9d6fc611
+ec2-54-194-207-186.eu-west-1.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       490 /       490 |         0 |         0 |       222.63 |     1.00s |     980.00s |     0.43s |
+|       958 /       958 |         0 |         0 |       461.10 |     1.50s |     936.00s |     0.47s |
+|      1437 /      1437 |         0 |         0 |       704.57 |     2.00s |     958.00s |     0.48s |
+|      1913 /      1913 |         0 |         0 |       948.61 |     2.50s |     952.00s |     0.48s |
+|      2394 /      2394 |         0 |         0 |      1192.90 |     3.00s |     962.00s |     0.48s |
+|      2868 /      2868 |         0 |         0 |      1435.92 |     3.50s |     948.00s |     0.47s |
+|      3327 /      3327 |         0 |         0 |      1669.34 |     4.00s |     918.00s |     0.46s |
+|      3802 /      3802 |         0 |         0 |      1912.88 |     4.50s |     948.10s |     0.47s |
+|      4265 /      4265 |         0 |         0 |      2147.93 |     5.00s |     926.00s |     0.46s |
+|      4737 /      4737 |         0 |         0 |      2389.92 |     5.50s |     944.00s |     0.47s |
+|      5192 /      5192 |         0 |         0 |      2620.67 |     6.00s |     910.00s |     0.45s |
+|      5663 /      5663 |         0 |         0 |      2862.15 |     6.50s |     942.00s |     0.47s |
+|      6100 /      6100 |         0 |         0 |      3084.09 |     7.00s |     874.00s |     0.43s |
+|      6568 /      6568 |         0 |         0 |      3324.03 |     7.50s |     936.00s |     0.47s |
+|      7030 /      7030 |         0 |         0 |      3558.57 |     8.00s |     924.00s |     0.46s |
+|      7502 /      7502 |         0 |         0 |      3800.57 |     8.50s |     942.12s |     0.47s |
+|      7960 /      7960 |         0 |         0 |      4033.27 |     9.00s |     916.00s |     0.45s |
+|      8410 /      8410 |         0 |         0 |      4263.98 |     9.50s |     900.00s |     0.45s |
+|      8886 /      8886 |         0 |         0 |      4505.92 |    10.00s |     952.00s |     0.47s |
+|      9359 /      9359 |         0 |         0 |      4748.42 |    10.50s |     946.00s |     0.47s |
+|      9809 /      9809 |         0 |         0 |      4977.03 |    11.00s |     900.00s |     0.45s |
+|     10269 /     10269 |         0 |         0 |      5212.87 |    11.50s |     920.00s |     0.46s |
+|     10737 /     10737 |         0 |         0 |      5450.49 |    12.03s |     894.84s |     0.44s |
+|     11184 /     11184 |         0 |         0 |      5679.66 |    12.53s |     894.00s |     0.45s |
+|     11643 /     11643 |         0 |         0 |      5913.09 |    13.03s |     918.00s |     0.46s |
+|     12109 /     12109 |         0 |         0 |      6152.01 |    13.53s |     932.00s |     0.47s |
+|     12575 /     12575 |         0 |         0 |      6388.81 |    14.03s |     932.00s |     0.46s |
+|     13041 /     13041 |         0 |         0 |      6627.73 |    14.53s |     932.00s |     0.47s |
+|     13497 /     13497 |         0 |         0 |      6859.83 |    15.03s |     912.00s |     0.45s |
+|     13946 /     13946 |         0 |         0 |      7090.03 |    15.53s |     898.00s |     0.45s |
+|     14412 /     14412 |         0 |         0 |      7326.42 |    16.03s |     930.14s |     0.46s |
+|     14861 /     14861 |         0 |         0 |      7556.62 |    16.53s |     898.00s |     0.45s |
+|     15319 /     15319 |         0 |         0 |      7789.74 |    17.03s |     916.00s |     0.46s |
+|     15779 /     15779 |         0 |         0 |      8025.58 |    17.53s |     920.00s |     0.46s |
+|     15779 /     15779 |         0 |         0 |      8025.58 |    18.03s |       0.00s |     0.00s |
+|     16239 /     16239 |         0 |         0 |      8259.31 |    18.53s |     920.00s |     0.46s |
+|     16704 /     16704 |         0 |         0 |      8497.29 |    19.03s |     928.14s |     0.46s |
+|     17175 /     17175 |         0 |         0 |      8737.09 |    19.53s |     942.00s |     0.47s |
+|     17628 /     17628 |         0 |         0 |      8968.28 |    20.03s |     906.00s |     0.45s |
+
+Bee: i-9d6fc611
+max-parallel:           50
+1st-resp-ms-min:        11.29
+response-codes
+        200:            208
+        403:            17370
+seconds:                20.027
+connect-ms-max:         15.115
+1st-resp-ms-max:        390.853
+bytes:                  13132194.0
+1st-resp-ms-mean:       41.6057616907
+end2end-ms-mean:        41.6218236432
+fetches-per-sec:        880.211714186
+connect-ms-min:         0.0
+fetches:                17628
+bytes-per-sec:          655724.471963
+end2end-ms-min:         11.303
+end2end-ms-max:         390.866
+mean-bytes-per-conn:    744.962219197
+connect-ms-mean:        0.0350904539766
+
+
+Offensive complete.
+
+Summarized Results
+     Total bytes:               26243329
+     Seconds:                   20
+     Connect-ms-max:            15.130000
+     1st-resp-ms-max:           390.853000
+     1st-resp-ms-mean:          41.667959
+     Fetches/sec mean:          879.898919
+     connect-ms-min:            0.000000
+     Total fetches:             35225
+     bytes/sec mean:            655542.306960
+     end2end-ms-min mean:       11.336500
+     mean-bytes-per-conn:       745.020037
+     connect-ms-mean:           0.034854
+
+Response Codes:
+     2xx:                       406
+     3xx:                       0
+     4xx:                       34719
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.jfVcPxIqE5 -l 20 -A 1000 -j
+
+i-02fead8c
+ec2-52-77-216-107.ap-southeast-1.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       100 /       100 |         0 |         0 |        23.95 |     1.00s |     200.00s |     0.05s |
+|       250 /       250 |         0 |         0 |        98.11 |     1.50s |     300.00s |     0.14s |
+|       388 /       388 |         0 |         0 |       167.60 |     2.00s |     276.00s |     0.14s |
+|       529 /       529 |         0 |         0 |       239.25 |     2.50s |     282.00s |     0.14s |
+|       673 /       673 |         0 |         0 |       311.39 |     3.00s |     287.43s |     0.14s |
+|       816 /       816 |         0 |         0 |       384.29 |     3.50s |     286.00s |     0.14s |
+|       953 /       953 |         0 |         0 |       452.42 |     4.00s |     274.00s |     0.13s |
+|      1091 /      1091 |         0 |         0 |       522.96 |     4.50s |     276.00s |     0.14s |
+|      1226 /      1226 |         0 |         0 |       591.12 |     5.00s |     270.00s |     0.13s |
+|      1372 /      1372 |         0 |         0 |       664.71 |     5.50s |     292.00s |     0.14s |
+|      1516 /      1516 |         0 |         0 |       736.85 |     6.00s |     288.00s |     0.14s |
+|      1656 /      1656 |         0 |         0 |       808.20 |     6.50s |     280.00s |     0.14s |
+|      1795 /      1795 |         0 |         0 |       877.78 |     7.00s |     278.00s |     0.14s |
+|      1937 /      1937 |         0 |         0 |       950.16 |     7.50s |     283.43s |     0.14s |
+|      2073 /      2073 |         0 |         0 |      1018.41 |     8.00s |     272.00s |     0.13s |
+|      2213 /      2213 |         0 |         0 |      1089.34 |     8.50s |     280.00s |     0.14s |
+|      2356 /      2356 |         0 |         0 |      1161.60 |     9.00s |     286.00s |     0.14s |
+|      2495 /      2495 |         0 |         0 |      1232.02 |     9.50s |     278.00s |     0.14s |
+|      2637 /      2637 |         0 |         0 |      1303.14 |    10.00s |     284.00s |     0.14s |
+|      2779 /      2779 |         0 |         0 |      1375.31 |    10.50s |     284.00s |     0.14s |
+|      2916 /      2916 |         0 |         0 |      1443.86 |    11.00s |     274.00s |     0.13s |
+|      3052 /      3052 |         0 |         0 |      1513.17 |    11.50s |     272.00s |     0.14s |
+|      3194 /      3194 |         0 |         0 |      1584.70 |    12.00s |     283.43s |     0.14s |
+|      3334 /      3334 |         0 |         0 |      1656.06 |    12.50s |     280.00s |     0.14s |
+|      3471 /      3471 |         0 |         0 |      1724.40 |    13.00s |     274.00s |     0.13s |
+|      3605 /      3605 |         0 |         0 |      1793.10 |    13.50s |     268.00s |     0.13s |
+|      3747 /      3747 |         0 |         0 |      1864.22 |    14.00s |     284.00s |     0.14s |
+|      3882 /      3882 |         0 |         0 |      1932.80 |    14.50s |     270.00s |     0.13s |
+|      4026 /      4026 |         0 |         0 |      2004.73 |    15.00s |     288.00s |     0.14s |
+|      4166 /      4166 |         0 |         0 |      2075.87 |    15.50s |     280.00s |     0.14s |
+|      4306 /      4306 |         0 |         0 |      2146.38 |    16.00s |     280.00s |     0.14s |
+|      4451 /      4451 |         0 |         0 |      2220.09 |    16.50s |     289.42s |     0.14s |
+|      4597 /      4597 |         0 |         0 |      2293.05 |    17.00s |     292.00s |     0.14s |
+|      4728 /      4728 |         0 |         0 |      2360.21 |    17.50s |     262.00s |     0.13s |
+|      4865 /      4865 |         0 |         0 |      2428.76 |    18.00s |     274.00s |     0.13s |
+|      5008 /      5008 |         0 |         0 |      2501.44 |    18.50s |     286.00s |     0.14s |
+|      5153 /      5153 |         0 |         0 |      2574.10 |    19.00s |     289.42s |     0.14s |
+|      5292 /      5292 |         0 |         0 |      2645.15 |    19.50s |     278.00s |     0.14s |
+|      5429 /      5429 |         0 |         0 |      2713.91 |    20.00s |     274.00s |     0.13s |
+
+Bee: i-02fead8c
+max-parallel:           50
+1st-resp-ms-min:        167.119
+response-codes
+        200:            208
+        403:            5171
+seconds:                20.005
+connect-ms-max:         194.213
+1st-resp-ms-max:        402.352
+bytes:                  3995143.0
+1st-resp-ms-mean:       179.083958914
+end2end-ms-mean:        179.106678751
+fetches-per-sec:        271.382154461
+connect-ms-min:         0.0
+fetches:                5429
+bytes-per-sec:          199707.223194
+end2end-ms-min:         167.165
+end2end-ms-max:         402.373
+mean-bytes-per-conn:    735.889298213
+connect-ms-mean:        1.63028611266
+
+
+hurl http://can.192bf.transactcdn.com/00192BF/test.html/config.workflow:ContinueWarranty -p 50  -H "Accept : text/html" -H "Content-Type : text/plain" -o /tmp/tmp.Ze2gnkVVd2 -l 20 -A 1000 -j
+
+i-03fead8d
+ec2-54-254-220-121.ap-southeast-1.compute.amazonaws.com
+Running 1 threads 50 parallel connections per thread with 1 reqests per connection
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|    Cmpltd /     Total |    IdlKil |    Errors | kBytes Recvd |   Elapsed |       Req/s |      MB/s |
++-----------/-----------+-----------+-----------+--------------+-----------+-------------+-----------+
+|         0 /         0 |         0 |         0 |         0.00 |     0.50s |       0.00s |     0.00s |
+|       100 /       100 |         0 |         0 |        23.10 |     1.00s |     199.60s |     0.05s |
+|       250 /       250 |         0 |         0 |        98.11 |     1.50s |     300.00s |     0.15s |
+|       388 /       388 |         0 |         0 |       167.38 |     2.00s |     276.00s |     0.14s |
+|       526 /       526 |         0 |         0 |       237.71 |     2.50s |     276.00s |     0.14s |
+|       669 /       669 |         0 |         0 |       308.92 |     3.00s |     286.00s |     0.14s |
+|       810 /       810 |         0 |         0 |       380.79 |     3.50s |     282.00s |     0.14s |
+|       948 /       948 |         0 |         0 |       449.85 |     4.00s |     276.00s |     0.13s |
+|      1083 /      1083 |         0 |         0 |       518.65 |     4.50s |     270.00s |     0.13s |
+|      1224 /      1224 |         0 |         0 |       589.04 |     5.00s |     281.44s |     0.14s |
+|      1363 /      1363 |         0 |         0 |       659.88 |     5.50s |     278.00s |     0.14s |
+|      1503 /      1503 |         0 |         0 |       729.76 |     6.00s |     280.00s |     0.14s |
+|      1642 /      1642 |         0 |         0 |       800.81 |     6.50s |     278.00s |     0.14s |
+|      1775 /      1775 |         0 |         0 |       867.31 |     7.00s |     266.00s |     0.13s |
+|      1917 /      1917 |         0 |         0 |       939.69 |     7.50s |     284.00s |     0.14s |
+|      2060 /      2060 |         0 |         0 |      1011.53 |     8.00s |     286.00s |     0.14s |
+|      2197 /      2197 |         0 |         0 |      1081.14 |     8.50s |     274.00s |     0.14s |
+|      2331 /      2331 |         0 |         0 |      1147.94 |     9.00s |     268.00s |     0.13s |
+|      2474 /      2474 |         0 |         0 |      1221.26 |     9.50s |     285.43s |     0.14s |
+|      2618 /      2618 |         0 |         0 |      1292.98 |    10.00s |     288.00s |     0.14s |
+|      2756 /      2756 |         0 |         0 |      1363.52 |    10.50s |     276.00s |     0.14s |
+|      2893 /      2893 |         0 |         0 |      1432.07 |    11.00s |     274.00s |     0.13s |
+|      3035 /      3035 |         0 |         0 |      1504.45 |    11.50s |     284.00s |     0.14s |
+|      3170 /      3170 |         0 |         0 |      1572.19 |    12.00s |     270.00s |     0.13s |
+|      3301 /      3301 |         0 |         0 |      1639.35 |    12.50s |     262.00s |     0.13s |
+|      3439 /      3439 |         0 |         0 |      1707.99 |    13.00s |     276.00s |     0.13s |
+|      3574 /      3574 |         0 |         0 |      1777.21 |    13.50s |     269.46s |     0.13s |
+|      3712 /      3712 |         0 |         0 |      1845.64 |    14.00s |     276.00s |     0.13s |
+|      3851 /      3851 |         0 |         0 |      1916.90 |    14.50s |     278.00s |     0.14s |
+|      3987 /      3987 |         0 |         0 |      1984.94 |    15.00s |     272.00s |     0.13s |
+|      4124 /      4124 |         0 |         0 |      2054.97 |    15.50s |     274.00s |     0.14s |
+|      4266 /      4266 |         0 |         0 |      2125.88 |    16.00s |     284.00s |     0.14s |
+|      4408 /      4408 |         0 |         0 |      2198.26 |    16.50s |     284.00s |     0.14s |
+|      4539 /      4539 |         0 |         0 |      2263.73 |    17.00s |     262.00s |     0.13s |
+|      4679 /      4679 |         0 |         0 |      2334.88 |    17.50s |     280.00s |     0.14s |
+|      4822 /      4822 |         0 |         0 |      2406.50 |    18.00s |     285.43s |     0.14s |
+|      4962 /      4962 |         0 |         0 |      2478.07 |    18.50s |     280.00s |     0.14s |
+|      5101 /      5101 |         0 |         0 |      2548.07 |    19.00s |     278.00s |     0.14s |
+|      5240 /      5240 |         0 |         0 |      2618.91 |    19.50s |     278.00s |     0.14s |
+|      5382 /      5382 |         0 |         0 |      2689.82 |    20.00s |     284.00s |     0.14s |
+
+Bee: i-03fead8d
+max-parallel:           50
+1st-resp-ms-min:        167.37
+response-codes
+        200:            208
+        403:            5124
+seconds:                20.005
+connect-ms-max:         197.678
+1st-resp-ms-max:        396.03
+bytes:                  3959940.0
+1st-resp-ms-mean:       180.888643473
+end2end-ms-mean:        180.91185859
+fetches-per-sec:        269.032741815
+connect-ms-min:         0.0
+fetches:                5382
+bytes-per-sec:          197947.513122
+end2end-ms-min:         167.395
+end2end-ms-max:         396.049
+mean-bytes-per-conn:    735.774804905
+connect-ms-mean:        1.66231845461
+
+
+Offensive complete.
+
+Summarized Results
+     Total bytes:               7955083
+     Seconds:                   20
+     Connect-ms-max:            197.678000
+     1st-resp-ms-max:           402.352000
+     1st-resp-ms-mean:          179.986301
+     Fetches/sec mean:          270.207448
+     connect-ms-min:            0.000000
+     Total fetches:             10811
+     bytes/sec mean:            198827.368158
+     end2end-ms-min mean:       167.280000
+     mean-bytes-per-conn:       735.832052
+     connect-ms-mean:           1.646302
+
+Response Codes:
+     2xx:                       416
+     3xx:                       0
+     4xx:                       10295
+     5xx:                       0
+
+Mission Assessment: Target crushed bee offensive.
+The swarm is awaiting new orders.
+(trusty)rawm@localhost:~/beeswithmachineguns$
+</pre>
+<p>An example bees down</p>
+<pre>$ ./bees down
+Read 2 bees from the roster: eu-west-1b
+Connecting to the hive.
+Calling off the swarm for eu-west-1b.
+Stood down 2 bees.
+Read 2 bees from the roster: ap-southeast-1b
+Connecting to the hive.
+Calling off the swarm for ap-southeast-1b.
+Stood down 2 bees.
+Read 2 bees from the roster: us-west-2b
+Connecting to the hive.
+Calling off the swarm for us-west-2b.
+Stood down 2 bees.
+</pre>
+<h2><a href="#the-caveat-please-read" aria-hidden="true" class="anchor" id="user-content-the-caveat-please-read"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The caveat! (PLEASE READ)</h2>
+<p>(The following was cribbed from our <a href="http://blog.apps.chicagotribune.com/2010/07/08/bees-with-machine-guns/" rel="nofollow">original blog post about the bees</a>.)</p>
+<p>If you decide to use the Bees, please keep in mind the following important caveat: they are, more-or-less a distributed denial-of-service attack in a fancy package and, therefore, if you point them at any server you don’t own you will behaving <strong>unethically</strong>, have your Amazon Web Services account <strong>locked-out</strong>, and be <strong>liable</strong> in a court of law for any downtime you cause.</p>
+<p>You have been warned.</p>
+<h2><a href="#troubleshooting" aria-hidden="true" class="anchor" id="user-content-troubleshooting"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Troubleshooting</h2>
+<h3><a href="#ec2-instances-out-of-sync" aria-hidden="true" class="anchor" id="user-content-ec2-instances-out-of-sync"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>EC2 Instances Out Of Sync</h3>
+<p>If you find yourself in a situation where ‘bees report’ seems to be out of sync with EC2 instances you know are (or are not) running:</p>
+<ul>
+	<li>You can reset the BWMG state by deleting ~/.bees..  Note that this will prevent BWMG from identifying EC2 instances that may now be orphaned by the tool</li>
+	<li>You can manually edit ~/.bees. to add or remove instance IDs and force synchronization with the reality from your EC2 dashboard</li>
+</ul>
+<p>This is helpful in cases where BWMG crashes, EC2 instances are terminated outside of the control of BWMG, or other situations where BWMG is out of sync with reality.</p>
+<h2><a href="#bugs" aria-hidden="true" class="anchor" id="user-content-bugs"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Bugs</h2>
+<p>Please log your bugs on the <a href="http://github.com/newsapps/beeswithmachineguns/issues">Github issues tracker</a>.</p>
+<h2><a href="#credits" aria-hidden="true" class="anchor" id="user-content-credits"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Credits</h2>
+<p>The bees are a creation of the News Applications team at the Chicago Tribune—visit <a href="http://apps.chicagotribune.com/" rel="nofollow">our blog</a> and read <a href="http://blog.apps.chicagotribune.com/2010/07/ 08/bees-with-machine-guns/" rel="nofollow">our original post about the project</a>.</p>
+<p>Initial refactoring code and inspiration from <a href="http://github.com/thejefflarson">Jeff Larson</a>.</p>
+<p>Multiple url support from <a href="https://github.com/timsu/beeswithmachineguns">timsu</a>.</p>
+<p>Thanks to everyone who reported bugs against the alpha release.</p>
+<h2><a href="#license" aria-hidden="true" class="anchor" id="user-content-license"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>MIT.</p></article>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.19838s from unicorn-3810275544-nvrkc">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to blog, text:blog" href="https://github.com/blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-680e7bbbbe79068a1cb3142329468a6f.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-4a55ab3fcf005abef1e8b859483f3cce.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-bb9389ddb48b82c0ab8aac117b804993.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+
+<!-- Mirrored from github.com/newsapps/beeswithmachineguns by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Apr 2018 07:04:51 GMT -->
+</html>
+

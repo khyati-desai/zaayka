@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/eluttner/formatter.js/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/eluttner/formatter.js/commits/master.atom"/>
+  <title>Recent Commits to formatter.js:master</title>
+  <updated>2013-11-05T07:16:39Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dd0cad8c69c29ef824d8f336a64f2ba9e90fcbcb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/dd0cad8c69c29ef824d8f336a64f2ba9e90fcbcb"/>
+    <title>
+        Merge pull request #12 from banafederico/patch-1
+    </title>
+    <updated>2013-11-05T07:16:39Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #12 from banafederico/patch-1
+
+Fixes small typo in README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5b0b5f9715703f4c33d32de688f636e5e0b34d7e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/5b0b5f9715703f4c33d32de688f636e5e0b34d7e"/>
+    <title>
+        Fixes small typo in README
+    </title>
+    <updated>2013-11-04T12:48:08Z</updated>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/3e9297646b9cb2d449fdffd861526b20?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=30"/>
+    <author>
+      <name></name>
+      <email>me@banafederico.com</email>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fixes small typo in README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/65a088c11184e31db5d74552d28477268e4a82d8</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/65a088c11184e31db5d74552d28477268e4a82d8"/>
+    <title>
+        update order of sections in README.md
+    </title>
+    <updated>2013-11-04T10:59:29Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;update order of sections in README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/74a3d272e0e1b6a2d3ed7ae6e1f5131103f9b1bf</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/74a3d272e0e1b6a2d3ed7ae6e1f5131103f9b1bf"/>
+    <title>
+        0.0.6 release
+    </title>
+    <updated>2013-11-04T10:50:59Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;0.0.6 release&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d9dbbfbf9766c759efdb3d8f00bbe4f69a633d30</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/d9dbbfbf9766c759efdb3d8f00bbe4f69a633d30"/>
+    <title>
+        Close #10 - Add resetPattern method
+    </title>
+    <updated>2013-11-04T10:44:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Close #10 - Add resetPattern method&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/7e3ff86595548601f53e31248e614ff516796435</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/7e3ff86595548601f53e31248e614ff516796435"/>
+    <title>
+        Fix #11 by using charAt rather than [] to access string chars
+    </title>
+    <updated>2013-11-04T09:20:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix #11 by using charAt rather than [] to access string chars&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/21e6419019d330b76a77ec82d97c6d820dcd8efc</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/21e6419019d330b76a77ec82d97c6d820dcd8efc"/>
+    <title>
+        bump package.json
+    </title>
+    <updated>2013-10-31T00:27:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;bump package.json&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/1f301edd67a696c5f4349389a59ccca0a1dd94e6</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/1f301edd67a696c5f4349389a59ccca0a1dd94e6"/>
+    <title>
+        bump version
+    </title>
+    <updated>2013-10-31T00:26:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;bump version&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/482c06113f0647317df45aa5c2955ee8036734fe</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/482c06113f0647317df45aa5c2955ee8036734fe"/>
+    <title>
+        Better functioning delete key
+    </title>
+    <updated>2013-10-29T23:54:26Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Better functioning delete key&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/ea657a9d1d90797a8ce7ae5f1e23e2b366d40570</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/ea657a9d1d90797a8ce7ae5f1e23e2b366d40570"/>
+    <title>
+        fix delete
+    </title>
+    <updated>2013-10-29T23:11:34Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fix delete&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/83ac6d482d8676adc39fd9bb23295bb48a286884</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/83ac6d482d8676adc39fd9bb23295bb48a286884"/>
+    <title>
+        arrow key error
+    </title>
+    <updated>2013-10-29T23:04:50Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;arrow key error&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9fb178faf7c19ad166537bf87c7b8a474908105d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/9fb178faf7c19ad166537bf87c7b8a474908105d"/>
+    <title>
+        Fix #6 Handle PC specific keys. Close #2
+    </title>
+    <updated>2013-10-29T22:36:26Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix #6 Handle PC specific keys. Close #2&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/844e7a0621982e244439e27203060183ad751b95</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/844e7a0621982e244439e27203060183ad751b95"/>
+    <title>
+        Fix #5
+    </title>
+    <updated>2013-10-29T17:35:33Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix #5&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/29ba01c8335e498e0c25e0f5ff4db1c17cccdcf3</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/29ba01c8335e498e0c25e0f5ff4db1c17cccdcf3"/>
+    <title>
+        resolve #3
+    </title>
+    <updated>2013-10-29T08:56:53Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;resolve #3&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2f0b6c886349caf0932d68d140d6897112b885e5</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/2f0b6c886349caf0932d68d140d6897112b885e5"/>
+    <title>
+        Fix #4 originally discovered in #2
+    </title>
+    <updated>2013-10-29T08:41:11Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix #4 originally discovered in #2&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/d780ea15885dd7df9f479a227454cad13f2e0850</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/d780ea15885dd7df9f479a227454cad13f2e0850"/>
+    <title>
+        Add demos to README
+    </title>
+    <updated>2013-10-22T00:30:20Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add demos to README&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a6fdfbcfd3220d431256c48a1d0395c454ad8165</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/a6fdfbcfd3220d431256c48a1d0395c454ad8165"/>
+    <title>
+        Fix jquery wrap
+    </title>
+    <updated>2013-10-22T00:29:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Fix jquery wrap&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a1bccecc0b9d3ae9dcae68f0ced5b7674c9f2e01</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/a1bccecc0b9d3ae9dcae68f0ced5b7674c9f2e01"/>
+    <title>
+        README to reflect updates
+    </title>
+    <updated>2013-10-21T23:52:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;README to reflect updates&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/74c9da9784e1e73c626b857298533bac5208293b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/74c9da9784e1e73c626b857298533bac5208293b"/>
+    <title>
+        Add _site dir to .gitignore
+    </title>
+    <updated>2013-10-21T23:51:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add _site dir to .gitignore&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dff4d24bacd32187060995f3ce29f32d9df191fb</id>
+    <link type="text/html" rel="alternate" href="https://github.com/eluttner/formatter.js/commit/dff4d24bacd32187060995f3ce29f32d9df191fb"/>
+    <title>
+        Add support for jquery
+    </title>
+    <updated>2013-10-21T23:50:02Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/933685?s=30&amp;v=4"/>
+    <author>
+      <name>jaridmargolin</name>
+      <uri>https://github.com/jaridmargolin</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add support for jquery&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

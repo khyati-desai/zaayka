@@ -1,0 +1,864 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from github.com/jaridmargolin/formatter.js/search?l=css&type=Issues by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Apr 2018 13:32:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="../../../assets-cdn.github.com/assets/frameworks-8f281eb0a8d2308ceb36e714ba3c3aec.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="../../../assets-cdn.github.com/assets/github-cec46cb7e4a6c4b4c35e2dac77b2196d.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="../../../assets-cdn.github.com/assets/site-83dc1f7ebc9c7461fe1eab799b56c4c4.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Search ·  · GitHub</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="../../fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/933685?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jaridmargolin/formatter.json" /><meta property="og:url" content="../formatter.html" /><meta property="og:description" content="Format html inputs to match a specified pattern. Contribute to formatter.js development by creating an account on GitHub." />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="7320:10FD:26C068A:4664F7F:5ACB62FA" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="code_search" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="7320:10FD:26C068A:4664F7F:5ACB62FA" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="hydro-events-url" content="../../hydro_browser_events.html" />
+<meta name="analytics-location-query-strip" content="true" data-pjax-transient="true" /><meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/repository_search/index" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="ZjFmZjZmZjcyMTA0ZTY4NTcxNTliMjZkODI4NmQ0Y2M3ZWM3MDEzMzU0MDI1Y2ExNTk5MjBkZWEzNGMyYTgxMXx7InJlbW90ZV9hZGRyZXNzIjoiMTE2LjcyLjUyLjIzMiIsInJlcXVlc3RfaWQiOiI3MzIwOjEwRkQ6MjZDMDY4QTo0NjY0RjdGOjVBQ0I2MkZBIiwidGltZXN0YW1wIjoxNTIzMjc4NTg2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="c93ed10e39cc785bf529e2db8313369c9d932977">
+
+  <meta http-equiv="x-pjax-version" content="4c09b81681961f2efccc0240274e1d51">
+  
+
+      <meta name="analytics-param-rename" content="q:ga-q" data-pjax-transient>
+  <link href="commits/master.atom" rel="alternate" title="Recent Commits to formatter.js:master" type="application/atom+xml">
+
+  <meta name="description" content="Format html inputs to match a specified pattern. Contribute to formatter.js development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/jaridmargolin/formatter.js git https://github.com/jaridmargolin/formatter.js.git">
+
+  <meta name="octolytics-dimension-user_id" content="933685" /><meta name="octolytics-dimension-user_login" content="jaridmargolin" /><meta name="octolytics-dimension-repository_id" content="12876724" /><meta name="octolytics-dimension-repository_nwo" content="jaridmargolin/formatter.json" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="12876724" /><meta name="octolytics-dimension-repository_network_root_nwo" content="jaridmargolin/formatter.json" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="../../manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="../../features.html">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="../../business.html">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="../../explore.html">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="../../marketplace.html">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="../../pricing.html">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/jaridmargolin/formatter.js/search" data-unscoped-search-url="/search" action="https://github.com/jaridmargolin/formatter.js/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+        <a class="header-search-scope truncate-repo-scope no-underline" href="../formatter.html">jaridmargolin/formatter.js</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="https://github.com/login?return_to=%2Fjaridmargolin%2Fformatter.js%2Fsearch%3Fl%3Dcss%26type%3DIssues" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+  
+
+
+
+
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="container mt-4">
+    <div class="columns">
+      <div class="column one-fourth">
+        <nav class="menu border" data-pjax>
+            <a class="menu-item " href="search957b.html?l=css&amp;type=Code">Code<span class="Counter ml-1 mt-1">2</span></a>
+            <a class="menu-item " href="searchd1ab.html?l=css&amp;type=Commits">Commits</a>
+            <a class="menu-item selected" href="search0f71.html?l=css&amp;type=Issues">Issues<span class="Counter ml-1 mt-1">103</span></a>
+            
+            <a class="menu-item " href="search4f6b.html?l=css&amp;type=Wikis">Wikis</a>
+        </nav>
+        
+  <div class="border rounded-1 p-3 mb-3">
+    <h2 class="f5 mb-2">
+      States
+    </h2>
+    <ul class="filter-list small" data-pjax>
+      <li>
+          <span class="bar" style="width: 50%;"></span>
+
+          <a class="filter-item" href="searchaf01?l=javascript&amp;state=open&amp;type=Issues">
+            <span class="count">52</span>
+            Open
+</a>      </li>
+      <li>
+          <span class="bar" style="width: 50%;"></span>
+
+          <a class="filter-item" href="searchf885?l=javascript&amp;state=closed&amp;type=Issues">
+            <span class="count">51</span>
+            Closed
+</a>      </li>
+  </ul>
+  </div>
+
+
+
+
+        <p class="f6 mt-3">
+          <a href="https://github.com/search/advanced?l=CSS">Advanced search</a>
+          <button type="button" data-facebox="#search_cheatsheet_pane" data-facebox-class="shortcuts" class="btn-link ml-3">Cheat sheet</button>
+        </p>
+      </div>
+      <div class="column three-fourths codesearch-results">
+        <div class="pl-2">
+            
+  <div class="d-flex flex-justify-between border-bottom pb-3">
+    <h3>
+    103 issues
+
+    in <a href="../formatter.html">jaridmargolin/formatter.js</a>
+</h3>
+
+      <div class="select-menu js-menu-container js-select-menu float-right select-menu-modal-right">
+        <button class="btn btn-sm select-menu-button js-menu-target" type="button" aria-haspopup="true" aria-expanded="false">
+          <i>Sort:</i>
+          <span class="js-select-button">Best match</span>
+        </button>
+        <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+          <div class="select-menu-modal">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+              <span class="select-menu-title">Sort options</span>
+            </div>
+            <div class="select-menu-list">
+                  <span class="select-menu-item js-navigation-open js-navigation-item selected">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Best match</span>
+</span>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="search5a21?l=css&amp;o=desc&amp;s=comments&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Most commented</span>
+</a>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="search29f2?l=css&amp;o=asc&amp;s=comments&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Least commented</span>
+</a>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="search086b?l=css&amp;o=desc&amp;s=created&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Newest</span>
+</a>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="search3e8e?l=css&amp;o=asc&amp;s=created&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Oldest</span>
+</a>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="search351d?l=css&amp;o=desc&amp;s=updated&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Recently updated</span>
+</a>                  <a class="select-menu-item js-navigation-open js-navigation-item" href="searchefd8?l=css&amp;o=asc&amp;s=updated&amp;type=Issues">
+                    <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"/></svg>
+                    <span class="select-menu-item-text js-select-button-text">Least recently updated</span>
+</a>            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+            
+  <div id="issue_search_results">
+    <div class="issue-list">
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#103</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="resetPattern() - Doesn&#39;t remove previously applied pattern." data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:1,&quot;click_id&quot;:242443169,&quot;result&quot;:{&quot;id&quot;:242443169,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUyNDI0NDMxNjk=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/103&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="671adfb8cf231d219b6fe7aa0e213ed7e6f319c5d600672462a24790ffeff16b" href="issues/103.html">resetPattern() - Doesn&#39;t remove previously applied pattern.</a>
+    </h3>
+    <p>I&#39;d like to just remove a pattern I previously applied without having to add a new pattern. The following does remove
+the previous pattern... if (formattedFirstDocNumber) {
+formattedFirstDocNumber.resetPattern(&#39;{{**************************************************}}&#39;); ...</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="gregowahoo" class="muted-link" href="https://github.com/gregowahoo">gregowahoo</a> <relative-time datetime="2017-07-12T16:37:08Z">Jul 12, 2017</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          1 comment
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-git-pull-request closed d-inline-block mr-3" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="float-right text-gray">#102</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Fix &#39;t&#39; key input" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:2,&quot;click_id&quot;:232968580,&quot;result&quot;:{&quot;id&quot;:232968580,&quot;global_relay_id&quot;:&quot;MDExOlB1bGxSZXF1ZXN0MTIzNTYzNzg5&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/pull/102&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="2521b0b989f7762e4d22c3b6bca06935fa9be734c991155fda5aa3580372e724" href="pull/102">Fix &#39;t&#39; key input</a>
+    </h3>
+    <p></p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="mjs330" class="muted-link" href="https://github.com/mjs330">mjs330</a> <relative-time datetime="2017-06-01T18:27:45Z">Jun 1, 2017</relative-time>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#101</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="The &#39;t&#39; character is not allowed." data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:3,&quot;click_id&quot;:230939001,&quot;result&quot;:{&quot;id&quot;:230939001,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUyMzA5MzkwMDE=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/101&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="96b613611c15f6abf8e56ef35452385ea7da0560c137cec2faed60741f80dba9" href="issues/101.html">The &#39;t&#39; character is not allowed.</a>
+    </h3>
+    <p>Hi!
+
+Why &#39;t&#39; key is not allowed when I define a format like {{***}}-{{***}}. It should be feasible to insert any character,
+isn&#39;t it?
+
+I know that F5 and t are similar, what is described here. ...</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="matjanos" class="muted-link" href="https://github.com/matjanos">matjanos</a> <relative-time datetime="2017-05-24T07:00:01Z">May 24, 2017</relative-time>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-git-pull-request open d-inline-block mr-3" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="float-right text-gray">#100</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Fix `keypress` for mobile Chrome based browsers" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:4,&quot;click_id&quot;:216768989,&quot;result&quot;:{&quot;id&quot;:216768989,&quot;global_relay_id&quot;:&quot;MDExOlB1bGxSZXF1ZXN0MTEyNDQ0MzM3&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/pull/100&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="5d3328f8047ddf4f07d2cc5b43704ba76e71abbf6922244b32fafc073c1cf3d1" href="pull/100.html">Fix `keypress` for mobile Chrome based browsers</a>
+    </h3>
+    <p>As described by @damirsel on issue #81
+</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="edtsz" class="muted-link" href="https://github.com/edtsz">edtsz</a> <relative-time datetime="2017-03-24T12:18:45Z">Mar 24, 2017</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          3 comments
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#99</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="there is something wrong in safari---can&#39;t format the input text and the caret has wrong position" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:5,&quot;click_id&quot;:186233152,&quot;result&quot;:{&quot;id&quot;:186233152,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUxODYyMzMxNTI=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/99&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="99ea92545d3ec4d1bc6ed5774f36e4a7b877d0466a8ebb71a9c667957ef65a49" href="issues/99.html">there is something wrong in safari---can&#39;t format the input text and the caret has wrong position</a>
+    </h3>
+    <p>when we use chinese input on safari, the formatter work badly. The position of the caret is also wrong.
+</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="kobe990" class="muted-link" href="https://github.com/kobe990">kobe990</a> <relative-time datetime="2016-10-31T08:55:39Z">Oct 31, 2016</relative-time>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-git-pull-request open d-inline-block mr-3" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="float-right text-gray">#98</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Fix memory leak (add destroy method)" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:6,&quot;click_id&quot;:186012471,&quot;result&quot;:{&quot;id&quot;:186012471,&quot;global_relay_id&quot;:&quot;MDExOlB1bGxSZXF1ZXN0OTE0NDUyNDg=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/pull/98&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="fa24fc639876397d9e77a6cf59baaeb5e5c92976ccf556536e8707e19729998b" href="pull/98.html">Fix memory leak (add destroy method)</a>
+    </h3>
+    <p></p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="kubii" class="muted-link" href="https://github.com/kubii">kubii</a> <relative-time datetime="2016-10-28T20:19:22Z">Oct 28, 2016</relative-time>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#97</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="listening on input change events does not works" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:7,&quot;click_id&quot;:185438034,&quot;result&quot;:{&quot;id&quot;:185438034,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUxODU0MzgwMzQ=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/97&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="dbe9d17c6e0b9daac4d327f6051c32644bdf6be7c6a7a6c2f66299a14ad7fff6" href="issues/97.html">listening on input change events does not works</a>
+    </h3>
+    <p>I&#39;ve noticed that if i want to listen to input or change event for the control, these are not fired at all. Any clue?
+
+    $(&quot;#Field&quot;).on(&quot;input&quot;, function () {
+        // never ...</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="michelevirgilio" class="muted-link" href="https://github.com/michelevirgilio">michelevirgilio</a> <relative-time datetime="2016-10-26T16:02:55Z">Oct 26, 2016</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          1 comment
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#96</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Defining jQuery instead of jquery breaks webpack" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:8,&quot;click_id&quot;:168162670,&quot;result&quot;:{&quot;id&quot;:168162670,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUxNjgxNjI2NzA=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/96&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="94cc53198d0b253a1ac63e8730f207e0692e5aa6059f7383c1c1e16dd6fa9f76" href="issues/96.html">Defining jQuery instead of jquery breaks webpack</a>
+    </h3>
+    <p>The jQuery package on npm is named jquery not jQuery.
+
+So when bundling with webpack, using
+
+{ test: require.resolve(&#39;jquery&#39;), loader: &quot;expose?$!expose?jQuery&quot; }
+
+breaks the build since ...</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="imjakechapman" class="muted-link" href="https://github.com/imjakechapman">imjakechapman</a> <relative-time datetime="2016-07-28T18:20:52Z">Jul 28, 2016</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          1 comment
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-issue-opened open d-inline-block mr-3" viewBox="0 0 14 16" version="1.1" width="28" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+  <span class="float-right text-gray">#95</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Browser Autofill not triggering re-format" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:9,&quot;click_id&quot;:134905287,&quot;result&quot;:{&quot;id&quot;:134905287,&quot;global_relay_id&quot;:&quot;MDU6SXNzdWUxMzQ5MDUyODc=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/issues/95&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="9deb18328410bca5752f708ad6cbc28398192be88a4e35dd0aa69aa925c30163" href="issues/95.html">Browser Autofill not triggering re-format</a>
+    </h3>
+    <p>When a user selects an option for a text input using Chrome (or another browser) autofill, the format functionality is
+not triggered.
+
+-- Jonathan
+</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="jon-w1" class="muted-link" href="https://github.com/jon-w1">jon-w1</a> <relative-time datetime="2016-02-19T16:19:12Z">Feb 19, 2016</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          2 comments
+        </li>
+    </ul>
+  </div>
+</div>
+
+        
+<div class="issue-list-item col-12 py-4">
+  <svg height="32" class="octicon octicon-git-pull-request open d-inline-block mr-3" viewBox="0 0 12 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="float-right text-gray">#94</span>
+  <div class="d-inline-block col-10 v-align-top public">
+    <h3 class="text-normal pb-1">
+      <a title="Fix incorrect focus on &#39;persistent&#39;: true" data-hydro-click="{&quot;event_type&quot;:&quot;search_result.click&quot;,&quot;payload&quot;:{&quot;page_number&quot;:1,&quot;query&quot;:null,&quot;result_position&quot;:10,&quot;click_id&quot;:134844985,&quot;result&quot;:{&quot;id&quot;:134844985,&quot;global_relay_id&quot;:&quot;MDExOlB1bGxSZXF1ZXN0NTk5Mzg0NDM=&quot;,&quot;model_name&quot;:&quot;Issue&quot;,&quot;url&quot;:&quot;https://github.com/jaridmargolin/formatter.js/pull/94&quot;},&quot;client_id&quot;:null,&quot;user_id&quot;:null,&quot;originating_request_id&quot;:&quot;72EF:10FB:1FA038D:3BB49E2:5ACB62D4&quot;}}" data-hydro-click-hmac="0c0ac17aeb320266f4bd587a2ee6d29abe12b611261b6defc6411a3945262e9e" href="pull/94.html">Fix incorrect focus on &#39;persistent&#39;: true</a>
+    </h3>
+    <p>If persistent is set to true this code is executed: 497 - self._processKey(&#39;&#39;, false); Then at the end of
+Formatter.prototype._processKey this code is executed with ignoreCaret not set so it&#39;s ...</p>
+    <ul class="list-style-none text-small text-gray">
+      <li class="d-inline-block mr-3">
+        <span class="ml-2">
+          Opened by <a title="smaury" class="muted-link" href="https://github.com/smaury">smaury</a> <relative-time datetime="2016-02-19T11:40:54Z">Feb 19, 2016</relative-time>
+        </span>
+      </li>
+        <li class="d-inline-block">
+          1 comment
+        </li>
+    </ul>
+  </div>
+</div>
+
+    </div>
+      <div class="paginate-container">
+        <div class="pagination" data-pjax="true"><span class="previous_page disabled">Previous</span> <em class="current">1</em> <a rel="next" href="search80e4?l=javascript&amp;p=2&amp;type=Issues">2</a> <a href="search8771?l=javascript&amp;p=3&amp;type=Issues">3</a> <a href="searchaad9?l=javascript&amp;p=4&amp;type=Issues">4</a> <a href="searchcee5?l=javascript&amp;p=5&amp;type=Issues">5</a> <span class="gap">&hellip;</span> <a href="searchf225?l=javascript&amp;p=10&amp;type=Issues">10</a> <a href="searchc3b5?l=javascript&amp;p=11&amp;type=Issues">11</a> <a class="next_page" rel="next" href="search80e4?l=javascript&amp;p=2&amp;type=Issues">Next</a></div>
+      </div>
+  </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div id="search_cheatsheet_pane" class="instapaper_ignore readability-extra" style="display:none">
+  <h2 class="facebox-header" data-facebox-id="facebox-header">Search cheat sheet <button type="button" class="btn-link js-see-all-search-cheatsheet"><small>(see all)</small></button></h2>
+
+  <div class="markdown-body" data-facebox-id="facebox-description">
+
+    <p>GitHub’s search supports a variety of different operations. Here’s a quick cheat sheet for some of the common searches.</p>
+    <p>For more information, visit our <a href="https://help.github.com/articles/about-searching-on-github/">search help section</a>.</p>
+
+    <!-- Basics -->
+    <h2>Basic search</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>This search</th>
+          <th>Finds repositories with…</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>cat stars:&gt;100</td>
+          <td>Find cat repositories with greater than 100 stars.</td>
+        </tr>
+        <tr>
+          <td>user:defunkt</td>
+          <td>Get all repositories from the user defunkt.</td>
+        </tr>
+        <tr>
+          <td>tom location:"San Francisco, CA"</td>
+          <td>Find all tom users in "San Francisco, CA".</td>
+        </tr>
+        <tr>
+          <td>join extension:coffee</td>
+          <td>Find all instances of join in code with coffee extension.</td>
+        </tr>
+         <tr>
+          <td>NOT cat</td>
+          <td>Excludes all results containing cat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="js-more-cheatsheet-info d-none">
+      <hr>
+
+      <!-- Repositories -->
+      <h2>Repository search
+        <a href="https://help.github.com/articles/searching-repositories"><svg aria-label="Help" class="octicon octicon-link-external" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"/></svg></a>
+      </h2>
+      <p>Repository search looks through the projects you have access to on GitHub. You can also filter the results:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>This search</th>
+            <th>Finds repositories with…</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>cat stars:&gt;100</td>
+            <td>Find cat repositories with greater than 100 stars.</td>
+          </tr>
+          <tr>
+            <td>user:defunkt</td>
+            <td>Get all repositories from the user defunkt.</td>
+          </tr>
+          <tr>
+            <td>pugs pushed:&gt;2013-01-28</td>
+            <td>Pugs repositories pushed to since Jan 28, 2013.</td>
+          </tr>
+          <tr>
+            <td>node.js forks:&lt;200</td>
+            <td>Find all node.js repositories with less than 200 forks.</td>
+          </tr>
+          <tr>
+            <td>jquery size:1024..4089</td>
+            <td>Find jquery repositories between the sizes 1024 and 4089 kB.</td>
+          </tr>
+          <tr>
+            <td>gitx fork:true</td>
+            <td>Repository search includes forks of gitx.</td>
+          </tr>
+          <tr>
+            <td>gitx fork:only</td>
+            <td>Repository search returns only forks of gitx.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <!-- Code -->
+      <h2>Code search
+        <a href="https://help.github.com/articles/searching-code"><svg aria-label="Help" class="octicon octicon-link-external" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"/></svg></a>
+      </h2>
+      <p>Code search looks through the files hosted on GitHub. You can also filter the results:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>This search</th>
+            <th>Finds repositories with…</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>install repo:charles/privaterepo</td>
+            <td>Find all instances of install in code from the repository charles/privaterepo.</td>
+          </tr>
+          <tr>
+            <td>shogun user:heroku</td>
+            <td>Find references to shogun from all public heroku repositories.</td>
+          </tr>
+          <tr>
+            <td>join extension:coffee</td>
+            <td>Find all instances of join in code with coffee extension.</td>
+          </tr>
+          <tr>
+            <td>system size:&gt;1000</td>
+            <td>Find all instances of system in code of file size greater than 1000kbs.</td>
+          </tr>
+          <tr>
+            <td>examples path:/docs/</td>
+            <td>Find all examples in the path /docs/.</td>
+          </tr>
+          <tr>
+            <td>replace fork:true</td>
+            <td>Search replace in the source code of forks.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <!-- Issues -->
+      <h2>Issue search
+        <a href="https://help.github.com/articles/searching-issues"><svg aria-label="Help" class="octicon octicon-link-external" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"/></svg></a>
+      </h2>
+      <p>Issue search looks through issues and pull requests on GitHub. You can also filter the results:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>This search</th>
+            <th>Finds issues…</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>encoding user:heroku</td>
+            <td>Encoding issues across the Heroku organization.</td>
+          </tr>
+          <tr>
+            <td>cat is:open</td>
+            <td>Find cat issues that are open.</td>
+          </tr>
+          <tr>
+            <td>strange comments:&gt;42</td>
+            <td>Issues with more than 42 comments.</td>
+          </tr>
+          <tr>
+            <td>hard label:bug</td>
+            <td>Hard issues labeled as a bug.</td>
+          </tr>
+          <tr>
+            <td>author:mojombo</td>
+            <td>All issues authored by mojombo.</td>
+          </tr>
+          <tr>
+            <td>mentions:tpope</td>
+            <td>All issues mentioning tpope.</td>
+          </tr>
+          <tr>
+            <td>assignee:rtomayko</td>
+            <td>All issues assigned to rtomayko.</td>
+          </tr>
+          <tr>
+            <td>exception created:&gt;2012-12-31</td>
+            <td>Created since the beginning of 2013.</td>
+          </tr>
+          <tr>
+            <td>exception updated:&lt;2013-01-01</td>
+            <td>Last updated before 2013.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <!-- Users -->
+      <h2>User search
+        <a href="https://help.github.com/articles/searching-users"><svg aria-label="Help" class="octicon octicon-link-external" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M11 10h1v3c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h3v1H1v10h10v-3zM6 2l2.25 2.25L5 7.5 6.5 9l3.25-3.25L12 8V2H6z"/></svg></a>
+      </h2>
+      <p>User search finds users with an account on GitHub. You can also filter the results:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>This search</th>
+            <th>Finds repositories with…</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>fullname:"Linus Torvalds"</td>
+            <td>Find users with the full name "Linus Torvalds".</td>
+          </tr>
+          <tr>
+            <td>tom location:"San Francisco, CA"</td>
+            <td>Find all tom users in "San Francisco, CA".</td>
+          </tr>
+          <tr>
+            <td>chris followers:100..200</td>
+            <td>Find all chris users with followers between 100 and 200.</td>
+          </tr>
+          <tr>
+            <td>ryan repos:&gt;10</td>
+            <td>Find all ryan users with more than 10 repositories.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.11393s from unicorn-265826001-b3wnv">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="../../contact.html">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to blog, text:blog" href="https://github.com/blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="../../about.html">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="../../../assets-cdn.github.com/assets/compat-680e7bbbbe79068a1cb3142329468a6f.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="../../../assets-cdn.github.com/assets/frameworks-4a55ab3fcf005abef1e8b859483f3cce.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="../../../assets-cdn.github.com/assets/github-2d728fdd9eab7e0c5ed0f7ee90304a01.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+
+<!-- Mirrored from github.com/jaridmargolin/formatter.js/search?l=css&type=Issues by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Apr 2018 13:32:49 GMT -->
+</html>
+

@@ -1,0 +1,4916 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Apr 2018 07:07:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/frameworks-8f281eb0a8d2308ceb36e714ba3c3aec.css" />
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/github-2cc2d4309d3121116095141f403374b3.css" />
+  
+  
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://assets-cdn.github.com/assets/site-348211d27070b0d7bb5d31b1ac3d265b.css" />
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Add unit tests · eluttner/formatter.js@3c32d47 · GitHub</title>
+    <meta name="description" content="GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/933685?s=200&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Add unit tests · eluttner/formatter.js@3c32d47" /><meta property="og:url" content="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0" /><meta property="og:updated_time" content="1380855147" />
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="9F33:23B1:3FA97A:734B20:5ACC5BF8" data-pjax-transient>
+
+
+  
+
+  <meta name="selected-link" value="repo_commits" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="9F33:23B1:3FA97A:734B20:5ACC5BF8" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" />
+<meta name="hydro-events-url" content="https://github.com/hydro_browser_events" />
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/commit/show" data-pjax-transient="true" />
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YzZlZDJmMzNhMzZmMjE0NDY1ODY2NTA2NjI1MmQzOWFhMTA3NGRlMzAyOTFmZjQxZGQzZWZhYjRmMGJiM2I5ZXx7InJlbW90ZV9hZGRyZXNzIjoiMTE2LjczLjE5OS41NCIsInJlcXVlc3RfaWQiOiI5RjMzOjIzQjE6M0ZBOTdBOjczNEIyMDo1QUNDNUJGOCIsInRpbWVzdGFtcCI6MTUyMzM0MjMyOSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SELF_SERVE,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="c93ed10e39cc785bf529e2db8313369c9d932977">
+
+  <meta http-equiv="x-pjax-version" content="be8cc000a15485b1fffac5cc846bd66e">
+  
+
+      <link href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0.diff" rel="alternate" type="text/plain+diff" data-pjax-transient="true" />
+  <link href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0.patch" rel="alternate" type="text/plain+patch" data-pjax-transient="true" />
+
+  <meta name="diff-view" content="unified" data-pjax-transient>
+  <link href="https://github.com/eluttner/formatter.js/commits/3c32d4714ef0043d85251f328ffaed2131f5c2b0.atom" rel="alternate" title="Recent Commits to formatter.js:3c32d4714ef0043d85251f328ffaed2131f5c2b0" type="application/atom+xml">
+      <meta name="robots" content="noindex, nofollow" />
+
+  <meta name="description" content="Format html inputs to match a specified pattern. Contribute to formatter.js development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/eluttner/formatter.js git https://github.com/eluttner/formatter.js.git">
+
+  <meta name="octolytics-dimension-user_id" content="77336" /><meta name="octolytics-dimension-user_login" content="eluttner" /><meta name="octolytics-dimension-repository_id" content="14146233" /><meta name="octolytics-dimension-repository_nwo" content="https://github.com/eluttner/formatter.js/commit/eluttner/formatter.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="12876724" /><meta name="octolytics-dimension-repository_parent_nwo" content="https://github.com/eluttner/formatter.js/commit/jaridmargolin/formatter.js" /><meta name="octolytics-dimension-repository_network_root_id" content="12876724" /><meta name="octolytics-dimension-repository_network_root_nwo" content="https://github.com/eluttner/formatter.js/commit/jaridmargolin/formatter.js" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+<link rel="manifest" href="https://github.com/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+  <div class="container-lg d-flex px-3">
+    <div class="d-flex flex-justify-between flex-items-center">
+      <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+        <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto">
+        <nav class="mt-0">
+          <ul class="d-flex list-style-none">
+              <li class="ml-2">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="https://github.com/features">
+                  Features
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business" href="https://github.com/business">
+                  Business
+</a>              </li>
+
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="https://github.com/explore">
+                  Explore
+</a>              </li>
+
+              <li class="ml-4">
+                    <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace" href="https://github.com/marketplace">
+                      Marketplace
+</a>              </li>
+              <li class="ml-4">
+                <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="https://github.com/pricing">
+                  Pricing
+</a>              </li>
+          </ul>
+        </nav>
+
+      <div class="d-flex">
+          <div class="d-lg-flex flex-items-center mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scoped-search-url="/eluttner/formatter.js/search" data-unscoped-search-url="/search" action="https://github.com/eluttner/formatter.js/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <label class="form-control header-search-wrapper  js-chromeless-input-container">
+        <a class="header-search-scope no-underline" href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0">This repository</a>
+      <input type="text"
+        class="form-control header-search-input  js-site-search-focus js-site-search-field is-clearable"
+        data-hotkey="s,/"
+        name="q"
+        value=""
+        placeholder="Search"
+        aria-label="Search this repository"
+        data-unscoped-placeholder="Search GitHub"
+        data-scoped-placeholder="Search"
+        autocapitalize="off"
+        >
+        <input type="hidden" class="js-site-search-type-field" name="type" >
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="HeaderNavlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="https://github.com/login?return_to=%2Feluttner%2Fformatter.js%2Fcommit%2F3c32d4714ef0043d85251f328ffaed2131f5c2b0" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container >
+      
+
+
+
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Feluttner%2Fformatter.js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
+    Watch
+  </a>
+  <a class="social-count" href="https://github.com/eluttner/formatter.js/watchers"
+     aria-label="0 users are watching this repository">
+    0
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Feluttner%2Fformatter.js"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"/></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="https://github.com/eluttner/formatter.js/stargazers"
+      aria-label="0 users starred this repository">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Feluttner%2Fformatter.js"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+        Fork
+      </a>
+
+    <a href="https://github.com/eluttner/formatter.js/network" class="social-count"
+       aria-label="250 users forked this repository">
+      250
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="https://github.com/eluttner">eluttner</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="https://github.com/eluttner/formatter.js">formatter.js</a></strong>
+
+    <span class="fork-flag">
+      <span class="text">forked from <a href="https://github.com/jaridmargolin/formatter.js">jaridmargolin/formatter.js</a></span>
+    </span>
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container"
+     itemscope
+     itemtype="http://schema.org/BreadcrumbList"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container">
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /eluttner/formatter.js" href="https://github.com/eluttner/formatter.js">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+
+  <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /eluttner/formatter.js/pulls" href="https://github.com/eluttner/formatter.js/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /eluttner/formatter.js/projects" href="https://github.com/eluttner/formatter.js/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
+      Projects
+      <span class="Counter" >0</span>
+</a>
+
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /eluttner/formatter.js/pulse" href="https://github.com/eluttner/formatter.js/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+  <a href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+
+  
+
+  
+<div class="commit full-commit px-2 pt-2 ">
+  <a href="https://github.com/eluttner/formatter.js/tree/3c32d4714ef0043d85251f328ffaed2131f5c2b0" class="btn btn-outline float-right" title="Browse the repository at this point in the history" rel="nofollow">Browse files</a>
+
+    <p class="commit-title">
+      Add unit tests
+    </p>
+
+
+  <div class="commit-branches">
+  <include-fragment src="https://github.com/eluttner/formatter.js/branch_commits/3c32d4714ef0043d85251f328ffaed2131f5c2b0">
+    <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+    <ul class="branches-list">
+      <li class="loading">Loading branch information<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></li>
+    </ul>
+</include-fragment></div>
+
+
+  <div class="commit-meta clearfix p-2 no-wrap d-flex flex-items-center">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="jaridmargolin">
+
+        <a class="avatar" data-skip-pjax="true" data-hovercard-user-id="933685" href="https://github.com/jaridmargolin">
+          <img height="20" width="20" alt="@jaridmargolin" src="https://avatars3.githubusercontent.com/u/933685?s=60&amp;v=4" />
+</a>  </div>
+</div>
+
+    <div class="flex-auto">
+      
+      <a href="https://github.com/eluttner/formatter.js/commits?author=jaridmargolin"
+     class="commit-author tooltipped tooltipped-s user-mention"
+     aria-label="View all commits by jaridmargolin">jaridmargolin</a>
+
+
+  committed
+  <relative-time datetime="2013-10-04T02:52:27Z">Oct 4, 2013</relative-time>
+
+      
+
+    </div>
+    <div>
+      <span class="sha-block" data-pjax>
+        1 parent
+          
+          <a class="sha" data-hotkey="p" href="https://github.com/eluttner/formatter.js/commit/f85782cb5d5c05bdb17127e443f36f8743177039">f85782c</a>
+      </span>
+      <span class="sha-block">commit <span class="sha user-select-contain">3c32d4714ef0043d85251f328ffaed2131f5c2b0</span></span>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <a name="diff-stat"></a>
+      <div id="toc" class="details-collapse table-of-contents js-details-container Details">
+  <div class="BtnGroup float-right" data-ga-load="Diff, view, Viewed Unified Diff">
+  <a class="btn btn-sm selected BtnGroup-item" href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0?diff=unified">
+    Unified
+  </a>
+  <a class="btn btn-sm BtnGroup-item" href="https://github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0?diff=split">
+    Split
+  </a>
+</div>
+
+
+  <div class="toc-diff-stats">
+    <svg class="octicon octicon-diff" viewBox="0 0 13 16" version="1.1" width="13" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 7h2v1H6v2H5V8H3V7h2V5h1v2zm-3 6h5v-1H3v1zM7.5 2L11 5.5V15c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h6.5zM10 6L7 3H1v12h9V6zM8.5 0H3v1h5l4 4v8h1V4.5L8.5 0z"/></svg>
+    Showing
+    <button type="button" class="btn-link js-details-target" aria-expanded="false">
+      3 changed files
+    </button>
+    with
+    <strong>166 additions</strong>
+    and <strong>20 deletions</strong>.
+  </div>
+
+  <ol class="content collapse js-transitionable">
+    <li>
+      <span class="diffstat float-right">
+          <span class="text-green">
+            +1
+          </span>
+          <span class="text-red">
+            −1
+          </span>
+          <a href="#diff-b67911656ef5d18c4ae36cb6741b7965" class="tooltipped tooltipped-s" aria-label="2 lines changed">
+            <span class="block-diff-added"></span><span class="block-diff-deleted"></span><span class="block-diff-neutral"></span><span class="block-diff-neutral"></span><span class="block-diff-neutral"></span>
+          </a>
+      </span>
+      <svg title="modified" class="octicon octicon-diff-modified" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 1H1c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 13H1V2h12v12zM4 8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z"/></svg>
+      <a href="#diff-b67911656ef5d18c4ae36cb6741b7965">Makefile</a>
+    </li>
+    <li>
+      <span class="diffstat float-right">
+          <span class="text-green">
+            +29
+          </span>
+          <span class="text-red">
+            −11
+          </span>
+          <a href="#diff-83363edb43930a09658ac86524cfb0d2" class="tooltipped tooltipped-s" aria-label="40 lines changed">
+            <span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-deleted"></span><span class="block-diff-neutral"></span>
+          </a>
+      </span>
+      <svg title="modified" class="octicon octicon-diff-modified" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 1H1c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 13H1V2h12v12zM4 8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z"/></svg>
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2">src/formatter.js</a>
+    </li>
+    <li>
+      <span class="diffstat float-right">
+          <span class="text-green">
+            +136
+          </span>
+          <span class="text-red">
+            −8
+          </span>
+          <a href="#diff-a94f3f823764555c28276191f8cb8aa1" class="tooltipped tooltipped-s" aria-label="144 lines changed">
+            <span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-neutral"></span>
+          </a>
+      </span>
+      <svg title="modified" class="octicon octicon-diff-modified" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 1H1c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1zm0 13H1V2h12v12zM4 8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3z"/></svg>
+      <a href="#diff-a94f3f823764555c28276191f8cb8aa1">test/formatter.js</a>
+    </li>
+  </ol>
+</div>
+
+    <div id="files" class="diff-view ">
+
+  <div class="js-diff-progressive-container">
+    
+<a name="diff-b67911656ef5d18c4ae36cb6741b7965"></a>
+<div id="diff-0"
+     class="file js-file js-details-container Details
+             
+             
+             
+             
+             
+              show-inline-notes
+           ">
+  <div class="file-header js-file-header" data-path="Makefile" data-short-path="b679116" data-anchor="diff-b67911656ef5d18c4ae36cb6741b7965">
+    <div class="file-actions">
+
+        <span class="show-file-notes pt-1">
+          <label>
+            <input type="checkbox" checked="checked" class="js-toggle-file-notes">
+            Show comments
+          </label>
+        </span>
+
+          <a href="https://github.com/eluttner/formatter.js/blob/3c32d4714ef0043d85251f328ffaed2131f5c2b0/Makefile" class="btn btn-sm tooltipped tooltipped-nw" rel="nofollow" aria-label="View the whole file at version 3c32d47 ">View</a>
+
+
+      <button type="button" class="btn-octicon p-1 pr-2 js-details-target" aria-label="Toggle diff text" aria-expanded="true">
+        <svg class="octicon octicon-chevron-down Details-content--shown" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6z"/></svg>
+        <svg class="octicon octicon-chevron-up Details-content--hidden" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 10l-1.5 1.5L5 7.75 1.5 11.5 0 10l5-5z"/></svg>
+      </button>
+    </div>
+    <div class="file-info">
+        <span class="diffstat tooltipped tooltipped-e" aria-label="1 addition &amp; 1 deletion">2 <span class="block-diff-added"></span><span class="block-diff-deleted"></span><span class="block-diff-neutral"></span><span class="block-diff-neutral"></span><span class="block-diff-neutral"></span></span>
+
+      <a href="#diff-b67911656ef5d18c4ae36cb6741b7965" class="link-gray-dark"
+         title="Makefile">Makefile</a>
+
+      
+    </div>
+  </div>
+  <div class="js-file-content Details-content--shown">
+
+        <div class="data highlight blob-wrapper">
+          <table class="diff-table tab-size  " data-tab-size="8">
+            
+      <tr data-position="0">
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L0" class="blob-num blob-num-hunk non-expandable" data-line-number="..."></td>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R0" class="blob-num blob-num-hunk non-expandable" data-line-number="..."></td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -1,5 +1,5 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L1" data-line-number="1"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R1" data-line-number="1"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-smi">MOCHA_OPTS</span>= --check-leaks</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L2" data-line-number="2"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-<span class="pl-smi">REPORTER</span> = <span class="x x-first x-last">progress</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R2" data-line-number="2"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-smi">REPORTER</span> = <span class="x x-first x-last">spec</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L3" data-line-number="3"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R3" data-line-number="3"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L4" data-line-number="4"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R4" data-line-number="4"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-en">test</span>: </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965L5" data-line-number="5"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-b67911656ef5d18c4ae36cb6741b7965R5" data-line-number="5"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> 	@NODE_ENV=test ./node_modules/.bin/mocha <span class="pl-cce">\</span></span>
+
+  </td>
+</tr>
+
+
+
+  <tr class="js-expandable-line">
+   <td class="blob-num blob-num-expandable" colspan="2">
+     <a href="#diff-b67911656ef5d18c4ae36cb6741b7965"
+          class="diff-expander js-expand" title="Expand" aria-label="Expand"
+          data-url="/eluttner/formatter.js/blob_excerpt/1522a693301089b9b2f23ecbfc5287d16d614c80?diff=unified&amp;in_wiki_context=&amp;mode=100644&amp;path=Makefile&amp;prev_line_num_left=5&amp;prev_line_num_right=5"
+          data-left-range="6-9"
+          data-right-range="6-9">
+       <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+     </a>
+   </td>
+   <td class="blob-code blob-code-expandable"></td>
+  </tr>
+
+          </table>
+        </div>
+
+  </div>
+</div>
+
+    
+<a name="diff-83363edb43930a09658ac86524cfb0d2"></a>
+<div id="diff-1"
+     class="file js-file js-details-container Details
+             
+             
+             
+             
+             
+              show-inline-notes
+           ">
+  <div class="file-header js-file-header" data-path="src/formatter.js" data-short-path="83363ed" data-anchor="diff-83363edb43930a09658ac86524cfb0d2">
+    <div class="file-actions">
+
+        <span class="show-file-notes pt-1">
+          <label>
+            <input type="checkbox" checked="checked" class="js-toggle-file-notes">
+            Show comments
+          </label>
+        </span>
+
+          <a href="https://github.com/eluttner/formatter.js/blob/3c32d4714ef0043d85251f328ffaed2131f5c2b0/src/formatter.js" class="btn btn-sm tooltipped tooltipped-nw" rel="nofollow" aria-label="View the whole file at version 3c32d47 ">View</a>
+
+
+      <button type="button" class="btn-octicon p-1 pr-2 js-details-target" aria-label="Toggle diff text" aria-expanded="true">
+        <svg class="octicon octicon-chevron-down Details-content--shown" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6z"/></svg>
+        <svg class="octicon octicon-chevron-up Details-content--hidden" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 10l-1.5 1.5L5 7.75 1.5 11.5 0 10l5-5z"/></svg>
+      </button>
+    </div>
+    <div class="file-info">
+        <span class="diffstat tooltipped tooltipped-e" aria-label="29 additions &amp; 11 deletions">40 <span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-deleted"></span><span class="block-diff-neutral"></span></span>
+
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2" class="link-gray-dark"
+         title="src/formatter.js">src/formatter.js</a>
+
+      
+    </div>
+  </div>
+  <div class="js-file-content Details-content--shown">
+
+        <div class="data highlight blob-wrapper">
+          <table class="diff-table tab-size  " data-tab-size="8">
+            
+      <tr class="js-expandable-line" data-position="0">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=6&amp;mode=100644&amp;next_line_num_left=13&amp;next_line_num_right=13&amp;path=src%2Fformatter.js&amp;prev_line_num_left=&amp;prev_line_num_right=&amp;right_hunk_size=23"
+            data-left-range="1-12" data-right-range="1-12">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -13,6 +13,23 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L13" data-line-number="13"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R13" data-line-number="13"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L14" data-line-number="14"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R14" data-line-number="14"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> (<span class="pl-k">function</span>() {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L15" data-line-number="15"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R15" data-line-number="15"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R16" data-line-number="16"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R17" data-line-number="17"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R18" data-line-number="18"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Setup</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R19" data-line-number="19"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> - inspiration from underscore.js</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R20" data-line-number="20"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R21" data-line-number="21"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R22" data-line-number="22"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Establish the root object, window in the browser,</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R23" data-line-number="23"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> or exports on the server.</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R24" data-line-number="24"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> root <span class="pl-k">=</span> <span class="pl-c1">this</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R25" data-line-number="25"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R26" data-line-number="26"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">if</span> (<span class="pl-k">typeof</span> <span class="pl-c1">module</span> <span class="pl-k">!==</span> <span class="pl-s"><span class="pl-pds">&#39;</span>undefined<span class="pl-pds">&#39;</span></span> <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">module</span>.<span class="pl-smi">exports</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R27" data-line-number="27"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-c1">exports</span>.<span class="pl-smi">Formatter</span> <span class="pl-k">=</span> Formatter;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R28" data-line-number="28"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  } <span class="pl-k">else</span> {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R29" data-line-number="29"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-smi">root</span>.<span class="pl-smi">Formatter</span> <span class="pl-k">=</span> Formatter;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R30" data-line-number="30"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R31" data-line-number="31"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R32" data-line-number="32"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L16" data-line-number="16"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R33" data-line-number="33"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L17" data-line-number="17"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R34" data-line-number="34"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> Defaults</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L18" data-line-number="18"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R35" data-line-number="35"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="24">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=7&amp;mode=100644&amp;next_line_num_left=27&amp;next_line_num_right=44&amp;path=src%2Fformatter.js&amp;prev_line_num_left=18&amp;prev_line_num_right=35&amp;right_hunk_size=7"
+            data-left-range="19-26" data-right-range="36-43">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -27,7 +44,7 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L27" data-line-number="27"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R44" data-line-number="44"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> Class</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L28" data-line-number="28"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R45" data-line-number="45"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L29" data-line-number="29"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R46" data-line-number="46"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L30" data-line-number="30"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-c1 x x-first">this</span><span class="x">.</span><span class="pl-en x">Formatter</span><span class="x"> </span><span class="pl-k x">=</span><span class="x x-last"> </span><span class="pl-k">function</span>(<span class="pl-smi">el</span>, <span class="pl-smi">opts</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R47" data-line-number="47"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">function</span><span class="x x-first"> </span><span class="pl-en x x-last">Formatter</span>(<span class="pl-smi">el</span>, <span class="pl-smi">opts</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L31" data-line-number="31"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R48" data-line-number="48"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-c"><span class="pl-c">//</span> Cache this</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L32" data-line-number="32"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R49" data-line-number="49"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">var</span> self <span class="pl-k">=</span> <span class="pl-c1">this</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L33" data-line-number="33"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R50" data-line-number="50"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="33">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=7&amp;mode=100644&amp;next_line_num_left=50&amp;next_line_num_right=67&amp;path=src%2Fformatter.js&amp;prev_line_num_left=33&amp;prev_line_num_right=50&amp;right_hunk_size=7"
+            data-left-range="34-49" data-right-range="51-66">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -50,7 +67,7 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L50" data-line-number="50"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R67" data-line-number="67"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-c"><span class="pl-c">//</span> Cache position before manipulating</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L51" data-line-number="51"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R68" data-line-number="68"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-k">var</span> pos <span class="pl-k">=</span> <span class="pl-smi">self</span>.<span class="pl-en">_getCaretPosition</span>(<span class="pl-smi">self</span>.<span class="pl-smi">el</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L52" data-line-number="52"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R69" data-line-number="69"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-c"><span class="pl-c">//</span> Set text value</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L53" data-line-number="53"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-      <span class="pl-smi">self</span>.<span class="pl-smi">el</span>.<span class="pl-c1">value</span> <span class="pl-k">=</span> <span class="pl-smi">self</span>.<span class="pl-en">_addChars</span>(<span class="pl-smi">self</span>.<span class="pl-smi">el</span>.<span class="pl-c1">value</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R70" data-line-number="70"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-smi">self</span>.<span class="pl-smi">el</span>.<span class="pl-c1">value</span> <span class="pl-k">=</span> <span class="pl-smi">self</span>.<span class="pl-en">_addChars</span>(<span class="pl-smi">self</span>.<span class="pl-smi">el</span>.<span class="pl-c1">value</span><span class="x x-first">, </span><span class="pl-smi x">self</span><span class="x">.</span><span class="pl-smi x x-last">chars</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L54" data-line-number="54"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R71" data-line-number="71"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-c"><span class="pl-c">//</span> Update cursorPosition</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L55" data-line-number="55"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R72" data-line-number="72"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-smi">self</span>.<span class="pl-en">_updateCursorPos</span>(pos);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L56" data-line-number="56"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R73" data-line-number="73"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     });</span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="42">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=13&amp;mode=100644&amp;next_line_num_left=60&amp;next_line_num_right=77&amp;path=src%2Fformatter.js&amp;prev_line_num_left=56&amp;prev_line_num_right=73&amp;right_hunk_size=13"
+            data-left-range="57-59" data-right-range="74-76">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -60,13 +77,13 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L60" data-line-number="60"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R77" data-line-number="77"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> @private</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L61" data-line-number="61"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R78" data-line-number="78"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> Create an array holding all input matches</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L62" data-line-number="62"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R79" data-line-number="79"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L63" data-line-number="63"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findMatches</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R80" data-line-number="80"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findMatches</span> <span class="pl-k">=</span> <span class="pl-k">function</span> (<span class="pl-smi x x-first x-last">str</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L64" data-line-number="64"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R81" data-line-number="81"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">var</span> matchExp <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">RegExp</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>{{([^}]+)}}<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>g<span class="pl-pds">&#39;</span></span>),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L65" data-line-number="65"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R82" data-line-number="82"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         matches  <span class="pl-k">=</span> [],</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L66" data-line-number="66"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R83" data-line-number="83"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         match;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L67" data-line-number="67"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R84" data-line-number="84"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L68" data-line-number="68"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R85" data-line-number="85"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-c"><span class="pl-c">//</span> Create array of matches</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L69" data-line-number="69"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-    <span class="pl-k">while</span>(match <span class="pl-k">=</span> <span class="pl-smi">matchExp</span>.<span class="pl-c1">exec</span>(<span class="pl-c1 x x-first">this</span><span class="x">.</span><span class="pl-smi x">opts</span><span class="x x-last">.</span><span class="pl-smi">str</span>)) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R86" data-line-number="86"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-k">while</span>(match <span class="pl-k">=</span> <span class="pl-smi">matchExp</span>.<span class="pl-c1">exec</span>(str)) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L70" data-line-number="70"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R87" data-line-number="87"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-smi">matches</span>.<span class="pl-c1">push</span>(match);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L71" data-line-number="71"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R88" data-line-number="88"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L72" data-line-number="72"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R89" data-line-number="89"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">return</span> matches;</span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="58">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=11&amp;mode=100644&amp;next_line_num_left=77&amp;next_line_num_right=94&amp;path=src%2Fformatter.js&amp;prev_line_num_left=72&amp;prev_line_num_right=89&amp;right_hunk_size=11"
+            data-left-range="73-76" data-right-range="90-93">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -77,11 +94,11 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L77" data-line-number="77"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R94" data-line-number="94"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> Create an object holding all formatted characters</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L78" data-line-number="78"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R95" data-line-number="95"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> with corresponding positions</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L79" data-line-number="79"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R96" data-line-number="96"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L80" data-line-number="80"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R97" data-line-number="97"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> (<span class="pl-smi x x-first x-last">str</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L81" data-line-number="81"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R98" data-line-number="98"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">var</span> <span class="pl-c1">DELIM_SIZE</span> <span class="pl-k">=</span> <span class="pl-c1">4</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L82" data-line-number="82"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-    <span class="pl-k">var</span> strLength  <span class="pl-k">=</span> <span class="pl-c1 x x-first">this</span><span class="x">.</span><span class="pl-smi x">opts</span><span class="x x-last">.</span><span class="pl-smi">str</span>.<span class="pl-c1">length</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R99" data-line-number="99"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-k">var</span> strLength  <span class="pl-k">=</span> <span class="pl-smi">str</span>.<span class="pl-c1">length</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L83" data-line-number="83"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R100" data-line-number="100"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         matchIncr  <span class="pl-k">=</span> <span class="pl-c1">0</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L84" data-line-number="84"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-        matches    <span class="pl-k">=</span> <span class="pl-c1">this</span>.<span class="pl-en">_findMatches</span>(),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R101" data-line-number="101"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+        matches    <span class="pl-k">=</span> <span class="pl-c1">this</span>.<span class="pl-en">_findMatches</span>(<span class="x x-first x-last">str</span>),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L85" data-line-number="85"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R102" data-line-number="102"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         chars      <span class="pl-k">=</span> {};</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L86" data-line-number="86"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R103" data-line-number="103"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L87" data-line-number="87"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R104" data-line-number="104"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-c"><span class="pl-c">//</span> Loop over all characters of the string </span></span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="73">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=7&amp;mode=100644&amp;next_line_num_left=93&amp;next_line_num_right=110&amp;path=src%2Fformatter.js&amp;prev_line_num_left=87&amp;prev_line_num_right=104&amp;right_hunk_size=7"
+            data-left-range="88-92" data-right-range="105-109">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -93,7 +110,7 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L93" data-line-number="93"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R110" data-line-number="110"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         i <span class="pl-k">+=</span> (match[<span class="pl-c1">1</span>].<span class="pl-c1">length</span> <span class="pl-k">+</span> <span class="pl-c1">DELIM_SIZE</span> <span class="pl-k">-</span> <span class="pl-c1">1</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L94" data-line-number="94"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R111" data-line-number="111"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         matchIncr <span class="pl-k">++</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L95" data-line-number="95"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R112" data-line-number="112"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       } <span class="pl-k">else</span> {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L96" data-line-number="96"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-        chars[i <span class="pl-k">-</span> (matchIncr <span class="pl-k">*</span> <span class="pl-c1">DELIM_SIZE</span>)] <span class="pl-k">=</span> <span class="pl-c1 x x-first">this</span><span class="x">.</span><span class="pl-smi x">opts</span><span class="x x-last">.</span><span class="pl-smi">str</span>[i];</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R113" data-line-number="113"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+        chars[i <span class="pl-k">-</span> (matchIncr <span class="pl-k">*</span> <span class="pl-c1">DELIM_SIZE</span>)] <span class="pl-k">=</span> str[i];</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L97" data-line-number="97"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R114" data-line-number="114"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L98" data-line-number="98"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R115" data-line-number="115"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L99" data-line-number="99"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R116" data-line-number="116"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">return</span> chars;</span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="82">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=13&amp;mode=100644&amp;next_line_num_left=117&amp;next_line_num_right=134&amp;path=src%2Fformatter.js&amp;prev_line_num_left=99&amp;prev_line_num_right=116&amp;right_hunk_size=13"
+            data-left-range="100-116" data-right-range="117-133">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -117,13 +134,13 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L117" data-line-number="117"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R134" data-line-number="134"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> @private</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L118" data-line-number="118"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R135" data-line-number="135"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span> Return updated string with formatted characters added</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L119" data-line-number="119"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R136" data-line-number="136"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L120" data-line-number="120"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_addChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> (<span class="pl-smi">str</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R137" data-line-number="137"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_addChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> (<span class="pl-smi">str</span><span class="x x-first">, </span><span class="pl-smi x x-last">chars</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L121" data-line-number="121"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R138" data-line-number="138"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-c"><span class="pl-c">//</span> Does not cache str length as it changes during iteration</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L122" data-line-number="122"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R139" data-line-number="139"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">for</span> (<span class="pl-k">var</span> i <span class="pl-k">=</span> <span class="pl-c1">0</span>; i <span class="pl-k">&lt;</span> <span class="pl-smi">str</span>.<span class="pl-c1">length</span>; i<span class="pl-k">++</span>) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L123" data-line-number="123"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R140" data-line-number="140"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-c"><span class="pl-c">//</span> If character exists at position but has not</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L124" data-line-number="124"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R141" data-line-number="141"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       <span class="pl-c"><span class="pl-c">//</span> yet been added, add at location</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L125" data-line-number="125"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-      <span class="pl-k">if</span> (<span class="pl-c1 x x-first">this</span><span class="x x-last">.</span><span class="pl-smi">chars</span>[i] <span class="pl-k">&amp;&amp;</span> (str[i] <span class="pl-k">!==</span> <span class="pl-c1 x x-first">this</span><span class="x x-last">.</span><span class="pl-smi">chars</span>[i])) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L126" data-line-number="126"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-        str <span class="pl-k">=</span> <span class="pl-smi">str</span>.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, i) <span class="pl-k">+</span> <span class="pl-c1 x x-first">this</span><span class="x x-last">.</span><span class="pl-smi">chars</span>[i] <span class="pl-k">+</span> <span class="pl-smi">str</span>.<span class="pl-c1">substr</span>(i, <span class="pl-smi">str</span>.<span class="pl-c1">length</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R142" data-line-number="142"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-k">if</span> (chars[i] <span class="pl-k">&amp;&amp;</span> (str[i] <span class="pl-k">!==</span> chars[i])) {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R143" data-line-number="143"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+        str <span class="pl-k">=</span> <span class="pl-smi">str</span>.<span class="pl-c1">substr</span>(<span class="pl-c1">0</span>, i) <span class="pl-k">+</span> chars[i] <span class="pl-k">+</span> <span class="pl-smi">str</span>.<span class="pl-c1">substr</span>(i, <span class="pl-smi">str</span>.<span class="pl-c1">length</span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L127" data-line-number="127"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R144" data-line-number="144"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L128" data-line-number="128"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R145" data-line-number="145"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L129" data-line-number="129"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R146" data-line-number="146"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     <span class="pl-k">return</span> str</span>
+
+  </td>
+</tr>
+
+
+
+      <tr class="js-expandable-line" data-position="99">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=6&amp;mode=100644&amp;next_line_num_left=144&amp;next_line_num_right=161&amp;path=src%2Fformatter.js&amp;prev_line_num_left=129&amp;prev_line_num_right=146&amp;right_hunk_size=7"
+            data-left-range="130-143" data-right-range="147-160">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -144,6 +161,7 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L144" data-line-number="144"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R161" data-line-number="161"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">         destObj[key] <span class="pl-k">=</span> <span class="pl-c1">arguments</span>[i][key];</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L145" data-line-number="145"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R162" data-line-number="162"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">       }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L146" data-line-number="146"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R163" data-line-number="163"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">     }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R164" data-line-number="164"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-k">return</span> destObj;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L147" data-line-number="147"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R165" data-line-number="165"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L148" data-line-number="148"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R166" data-line-number="166"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-83363edb43930a09658ac86524cfb0d2L149" data-line-number="149"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-83363edb43930a09658ac86524cfb0d2R167" data-line-number="167"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+  <tr class="js-expandable-line">
+   <td class="blob-num blob-num-expandable" colspan="2">
+     <a href="#diff-83363edb43930a09658ac86524cfb0d2"
+          class="diff-expander js-expand" title="Expand" aria-label="Expand"
+          data-url="/eluttner/formatter.js/blob_excerpt/fa6d32593a20ad2594a48778dfa7bedf9a05f812?diff=unified&amp;in_wiki_context=&amp;mode=100644&amp;path=src%2Fformatter.js&amp;prev_line_num_left=149&amp;prev_line_num_right=167"
+          data-left-range="150-210"
+          data-right-range="168-210">
+       <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+     </a>
+   </td>
+   <td class="blob-code blob-code-expandable"></td>
+  </tr>
+
+          </table>
+        </div>
+
+  </div>
+</div>
+
+    
+<a name="diff-a94f3f823764555c28276191f8cb8aa1"></a>
+<div id="diff-2"
+     class="file js-file js-details-container Details
+             
+             
+             
+             
+             
+              show-inline-notes
+           ">
+  <div class="file-header js-file-header" data-path="test/formatter.js" data-short-path="a94f3f8" data-anchor="diff-a94f3f823764555c28276191f8cb8aa1">
+    <div class="file-actions">
+
+        <span class="show-file-notes pt-1">
+          <label>
+            <input type="checkbox" checked="checked" class="js-toggle-file-notes">
+            Show comments
+          </label>
+        </span>
+
+          <a href="https://github.com/eluttner/formatter.js/blob/3c32d4714ef0043d85251f328ffaed2131f5c2b0/test/formatter.js" class="btn btn-sm tooltipped tooltipped-nw" rel="nofollow" aria-label="View the whole file at version 3c32d47 ">View</a>
+
+
+      <button type="button" class="btn-octicon p-1 pr-2 js-details-target" aria-label="Toggle diff text" aria-expanded="true">
+        <svg class="octicon octicon-chevron-down Details-content--shown" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 11L0 6l1.5-1.5L5 8.25 8.5 4.5 10 6z"/></svg>
+        <svg class="octicon octicon-chevron-up Details-content--hidden" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 10l-1.5 1.5L5 7.75 1.5 11.5 0 10l5-5z"/></svg>
+      </button>
+    </div>
+    <div class="file-info">
+        <span class="diffstat tooltipped tooltipped-e" aria-label="136 additions &amp; 8 deletions">144 <span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-added"></span><span class="block-diff-neutral"></span></span>
+
+      <a href="#diff-a94f3f823764555c28276191f8cb8aa1" class="link-gray-dark"
+         title="test/formatter.js">test/formatter.js</a>
+
+      
+    </div>
+  </div>
+  <div class="js-file-content Details-content--shown">
+
+        <div class="data highlight blob-wrapper">
+          <table class="diff-table tab-size  " data-tab-size="8">
+            
+      <tr class="js-expandable-line" data-position="0">
+    <td class="blob-num blob-num-expandable" colspan="2">
+      <a href="#diff-a94f3f823764555c28276191f8cb8aa1"
+            class="diff-expander js-expand" title="Expand" aria-label="Expand"
+            data-url="/eluttner/formatter.js/blob_excerpt/b249827acd8e986ff35c5d057f52df70cb04a57e?diff=unified&amp;in_wiki_context=&amp;left_hunk_size=21&amp;mode=100644&amp;next_line_num_left=5&amp;next_line_num_right=5&amp;path=test%2Fformatter.js&amp;prev_line_num_left=&amp;prev_line_num_right=&amp;right_hunk_size=149"
+            data-left-range="1-4" data-right-range="1-4">
+        <svg class="octicon octicon-unfold" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7.5L14 10c0 .55-.45 1-1 1H9v-1h3.5l-2-2h-7l-2 2H5v1H1c-.55 0-1-.45-1-1l2.5-2.5L0 5c0-.55.45-1 1-1h4v1H1.5l2 2h7l2-2H9V4h4c.55 0 1 .45 1 1l-2.5 2.5zM6 6h2V3h2L7 0 4 3h2v3zm2 3H6v3H4l3 3 3-3H8V9z"/></svg>
+      </a>
+    </td>
+    <td class="blob-code blob-code-inner blob-code-hunk">@@ -5,21 +5,149 @@</td>
+  </tr>
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L5" data-line-number="5"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R5" data-line-number="5"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-c"> * MIT LICENCE</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L6" data-line-number="6"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R6" data-line-number="6"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-c"> *</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L7" data-line-number="7"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R7" data-line-number="7"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-c"> <span class="pl-c">*/</span></span> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L8" data-line-number="8"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-<span class="pl-k">var</span> Formatter <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>../lib/base-station<span class="pl-pds">&#39;</span></span>),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L9" data-line-number="9"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-    should    <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>chai<span class="pl-pds">&#39;</span></span>).<span class="pl-en">should</span>(),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L10" data-line-number="10"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-    assert    <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>chai<span class="pl-pds">&#39;</span></span>).<span class="pl-smi">assert</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R8" data-line-number="8"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R9" data-line-number="9"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> 3rd party</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R10" data-line-number="10"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> should <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>chai<span class="pl-pds">&#39;</span></span>).<span class="pl-en">should</span>(),</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R11" data-line-number="11"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    assert <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>chai<span class="pl-pds">&#39;</span></span>).<span class="pl-smi">assert</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R12" data-line-number="12"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R13" data-line-number="13"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> first party</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R14" data-line-number="14"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> Formatter <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>../src/formatter<span class="pl-pds">&#39;</span></span>).<span class="pl-smi">Formatter</span>;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R15" data-line-number="15"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R16" data-line-number="16"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R17" data-line-number="17"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R18" data-line-number="18"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> Unit Tests</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R19" data-line-number="19"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L11" data-line-number="11"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R20" data-line-number="20"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L12" data-line-number="12"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R21" data-line-number="21"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L13" data-line-number="13"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-<span class="pl-c"><span class="pl-c">//</span> <span class="x x-first x-last">Tests</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R22" data-line-number="22"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> <span class="x x-first x-last">._extend</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L14" data-line-number="14"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R23" data-line-number="23"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> <span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L15" data-line-number="15"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-<span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Formatter Suite<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R24" data-line-number="24"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> <span class="pl-en">testExtend</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R25" data-line-number="25"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Setup Data</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R26" data-line-number="26"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> defaults, opts;</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R27" data-line-number="27"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  defaults <span class="pl-k">=</span> {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R28" data-line-number="28"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>extend<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>should<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R29" data-line-number="29"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>overwrite<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>all<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R30" data-line-number="30"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  };</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R31" data-line-number="31"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  opts <span class="pl-k">=</span> {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R32" data-line-number="32"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>overwrite<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>default<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R33" data-line-number="33"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>values<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>to<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R34" data-line-number="34"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>the<span class="pl-pds">&#39;</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>destObj<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R35" data-line-number="35"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  };</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R36" data-line-number="36"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R37" data-line-number="37"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Run extend</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R38" data-line-number="38"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> result <span class="pl-k">=</span> <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_extend</span>({}, defaults, opts);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R39" data-line-number="39"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Check results</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R40" data-line-number="40"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">deepEqual</span>(result, {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R41" data-line-number="41"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>extend<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>should<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R42" data-line-number="42"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>overwrite<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>default<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R43" data-line-number="43"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>values<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>to<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R44" data-line-number="44"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>the<span class="pl-pds">&#39;</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>destObj<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R45" data-line-number="45"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  });</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R46" data-line-number="46"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Make sure defaults &amp; opts were not changed</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R47" data-line-number="47"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">deepEqual</span>({</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R48" data-line-number="48"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>extend<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>should<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R49" data-line-number="49"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>overwrite<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>all<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R50" data-line-number="50"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  }, defaults);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R51" data-line-number="51"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">deepEqual</span>({</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R52" data-line-number="52"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>overwrite<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>default<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R53" data-line-number="53"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>values<span class="pl-pds">&#39;</span></span>   <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>to<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R54" data-line-number="54"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>the<span class="pl-pds">&#39;</span></span>      <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>destObj<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R55" data-line-number="55"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  }, opts);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R56" data-line-number="56"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+};</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L16" data-line-number="16"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R57" data-line-number="57"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L17" data-line-number="17"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Formatter unit tests<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R58" data-line-number="58"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R59" data-line-number="59"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> ._findMatches</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R60" data-line-number="60"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R61" data-line-number="61"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> <span class="pl-en">testFindMatches</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R62" data-line-number="62"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Run _findMatches</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R63" data-line-number="63"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> testStr <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>({{XXX}}) {{XXX}}.{{XXXX}}<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R64" data-line-number="64"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      result <span class="pl-k">=</span> <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findMatches</span>(testStr);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R65" data-line-number="65"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Check results</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R66" data-line-number="66"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">deepEqual</span>([</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R67" data-line-number="67"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    { </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R68" data-line-number="68"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>0<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>{{XXX}}<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R69" data-line-number="69"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>1<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>XXX<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R70" data-line-number="70"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>index<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-c1">1</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R71" data-line-number="71"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>input<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>({{XXX}}) {{XXX}}.{{XXXX}}<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R72" data-line-number="72"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    },</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R73" data-line-number="73"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    { </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R74" data-line-number="74"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>0<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>{{XXX}}<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R75" data-line-number="75"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>1<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>XXX<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R76" data-line-number="76"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>index<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-c1">10</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R77" data-line-number="77"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>input<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>({{XXX}}) {{XXX}}.{{XXXX}}<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R78" data-line-number="78"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    },</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R79" data-line-number="79"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    { </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R80" data-line-number="80"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>0<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>{{XXXX}}<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R81" data-line-number="81"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>1<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>XXXX<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R82" data-line-number="82"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>index<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-c1">18</span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R83" data-line-number="83"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-s"><span class="pl-pds">&#39;</span>input<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>({{XXX}}) {{XXX}}.{{XXXX}}<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R84" data-line-number="84"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    }</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R85" data-line-number="85"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  ], result);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R86" data-line-number="86"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+};</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R87" data-line-number="87"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R88" data-line-number="88"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R89" data-line-number="89"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> ._findChars</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R90" data-line-number="90"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R91" data-line-number="91"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> <span class="pl-en">testFindChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R92" data-line-number="92"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Run _findMatches</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R93" data-line-number="93"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> testStr <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>({{XXX}}) {{XXX}}.{{XXXX}}<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R94" data-line-number="94"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    result <span class="pl-k">=</span> <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_findChars</span>(testStr);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L18" data-line-number="18"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R95" data-line-number="95"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R96" data-line-number="96"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Check results</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R97" data-line-number="97"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">deepEqual</span>(result, {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R98" data-line-number="98"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>0<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>(<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R99" data-line-number="99"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>4<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>)<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R100" data-line-number="100"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>5<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span> <span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R101" data-line-number="101"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>9<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L19" data-line-number="19"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R102" data-line-number="102"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner">   });</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R103" data-line-number="103"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+};</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R104" data-line-number="104"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R105" data-line-number="105"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R106" data-line-number="106"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> ._addChars</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R107" data-line-number="107"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R108" data-line-number="108"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-k">var</span> <span class="pl-en">testAddChars</span> <span class="pl-k">=</span> <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R109" data-line-number="109"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Cache character pattern</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R110" data-line-number="110"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> chars <span class="pl-k">=</span> {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R111" data-line-number="111"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>0<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>(<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R112" data-line-number="112"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>4<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>)<span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R113" data-line-number="113"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>5<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span> <span class="pl-pds">&#39;</span></span>,</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R114" data-line-number="114"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-s"><span class="pl-pds">&#39;</span>9<span class="pl-pds">&#39;</span></span><span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span>.<span class="pl-pds">&#39;</span></span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R115" data-line-number="115"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  };</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R116" data-line-number="116"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R117" data-line-number="117"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> full raw number</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R118" data-line-number="118"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> fullResult <span class="pl-k">=</span> <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_addChars</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>8002364717<span class="pl-pds">&#39;</span></span>, chars);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R119" data-line-number="119"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">equal</span>(fullResult, <span class="pl-s"><span class="pl-pds">&#39;</span>(800) 236.4717<span class="pl-pds">&#39;</span></span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R120" data-line-number="120"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R121" data-line-number="121"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> partial formatted number</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R122" data-line-number="122"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-k">var</span> partialResult <span class="pl-k">=</span> <span class="pl-smi">Formatter</span>.<span class="pl-c1">prototype</span>.<span class="pl-en">_addChars</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>(800)236.4717<span class="pl-pds">&#39;</span></span>, chars);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R123" data-line-number="123"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-smi">assert</span>.<span class="pl-en">equal</span>(fullResult, <span class="pl-s"><span class="pl-pds">&#39;</span>(800) 236.4717<span class="pl-pds">&#39;</span></span>);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R124" data-line-number="124"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+};</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L20" data-line-number="20"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R125" data-line-number="125"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L21" data-line-number="21"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-c"><span class="pl-c">//</span> describe(&#39;Formatter functional tests&#39;, function () {</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L22" data-line-number="22"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R126" data-line-number="126"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L23" data-line-number="23"
+        class="blob-num blob-num-deletion js-linkable-line-number"></td>
+
+    <td class="blob-num blob-num-deletion empty-cell"></td>
+
+  <td class="blob-code blob-code-deletion">
+
+    <span class="blob-code-inner">-  <span class="pl-c"><span class="pl-c">//</span> });</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R127" data-line-number="127"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R128" data-line-number="128"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> Selenium Tests</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R129" data-line-number="129"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R130" data-line-number="130"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R131" data-line-number="131"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> Comming soon</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R132" data-line-number="132"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R133" data-line-number="133"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R134" data-line-number="134"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R135" data-line-number="135"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span> Test Suite</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R136" data-line-number="136"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-c"><span class="pl-c">//</span>///////////////////////////////////////////////////</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R137" data-line-number="137"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R138" data-line-number="138"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+<span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span># formatter.js<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R139" data-line-number="139"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Unit</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R140" data-line-number="140"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span># unit tests<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R141" data-line-number="141"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span># class utils<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R142" data-line-number="142"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-en">it</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Should return an object with merged properties<span class="pl-pds">&#39;</span></span>, testExtend);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R143" data-line-number="143"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    });</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R144" data-line-number="144"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    <span class="pl-en">describe</span>(<span class="pl-s"><span class="pl-pds">&#39;</span># class methods<span class="pl-pds">&#39;</span></span>, <span class="pl-k">function</span> () {</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R145" data-line-number="145"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-en">it</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Should create an array holding match objs<span class="pl-pds">&#39;</span></span>, testFindMatches);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R146" data-line-number="146"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-en">it</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Should create an object holding all chars<span class="pl-pds">&#39;</span></span>, testFindChars);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R147" data-line-number="147"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+      <span class="pl-en">it</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Should add chars to str in correct positions<span class="pl-pds">&#39;</span></span>, testAddChars);</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R148" data-line-number="148"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+    });</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R149" data-line-number="149"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  });</span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L24" data-line-number="24"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R150" data-line-number="150"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> </span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R151" data-line-number="151"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> Selenium</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td class="blob-num blob-num-addition empty-cell"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R152" data-line-number="152"
+        class="blob-num blob-num-addition js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-addition">
+
+    <span class="blob-code-inner">+  <span class="pl-c"><span class="pl-c">//</span> describe(&#39;selenium tests&#39;, seleniumTests);</span></span>
+
+  </td>
+</tr>
+
+
+
+    <tr>
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1L25" data-line-number="25"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+    <td id="diff-a94f3f823764555c28276191f8cb8aa1R153" data-line-number="153"
+        class="blob-num blob-num-context js-linkable-line-number"></td>
+
+  <td class="blob-code blob-code-context">
+
+    <span class="blob-code-inner"> });</span>
+
+      <span class="no-nl-marker tooltipped tooltipped-n" aria-label="No newline at end of file">
+        <svg class="octicon octicon-no-newline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 5v3c0 .55-.45 1-1 1h-3v2L9 8l3-3v2h2V5h2zM8 8c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4 4 1.8 4 4zM1.5 9.66L5.66 5.5C5.18 5.19 4.61 5 4 5 2.34 5 1 6.34 1 8c0 .61.19 1.17.5 1.66zM7 8c0-.61-.19-1.17-.5-1.66L2.34 10.5c.48.31 1.05.5 1.66.5 1.66 0 3-1.34 3-3z"/></svg>
+      </span>
+  </td>
+</tr>
+
+
+
+
+          </table>
+        </div>
+
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<button type="button" class="js-toggle-all-file-notes" data-hotkey="i" style="display:none">Toggle all file notes</button>
+
+<svg aria-hidden="true" width="340px" height="84px" viewBox="0 0 340 84" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  class="diff-placeholder-svg position-absolute bottom-0">
+  <defs>
+    <clippath id="diff-placeholder">
+      <rect x="0" y="0" width="67.0175439" height="11.9298746" rx="2"></rect>
+      <rect x="18.9473684" y="47.7194983" width="100.701754" height="11.9298746" rx="2"></rect>
+      <rect x="0" y="71.930126" width="37.8947368" height="11.9298746" rx="2"></rect>
+      <rect x="127.017544" y="48.0703769" width="53.3333333" height="11.9298746" rx="2"></rect>
+      <rect x="187.719298" y="48.0703769" width="72.9824561" height="11.9298746" rx="2"></rect>
+      <rect x="76.8421053" y="0" width="140.350877" height="11.9298746" rx="2"></rect>
+      <rect x="17.8947368" y="23.8597491" width="140.350877" height="11.9298746" rx="2"></rect>
+      <rect x="166.315789" y="23.8597491" width="173.684211" height="11.9298746" rx="2"></rect>
+    </clippath>
+
+    <linearGradient id="animated-diff-gradient" x1="0" x2="0" y1="0" y2="1" spreadMethod="reflect">
+      <stop offset="0" stop-color="#eee"></stop>
+      <stop offset="0.2" stop-color="#eee"></stop>
+      <stop offset="0.5" stop-color="#ddd"></stop>
+      <stop offset="0.8" stop-color="#eee"></stop>
+      <stop offset="1" stop-color="#eee"></stop>
+      <animateTransform attributeName="y1" values="0%; 100%; 0" dur="1s" repeatCount="3"></animateTransform>
+      <animateTransform attributeName="y2" values="100%; 200%; 0" dur="1s" repeatCount="3"></animateTransform>
+    </linearGradient>
+  </defs>
+</svg>
+
+
+
+  <div id="all_commit_comments" class="js-quote-selection-container ">
+
+    <div class="commit-comments-heading">
+      
+<div id="partial-visible-comments-header">
+  <span class="float-right">
+    
+  </span>
+
+  <h4 class="commit-comment-count">
+    0 comments
+    on commit <code class="commit-sha">3c32d47</code>
+  </h4>
+
+</div>
+
+    </div>
+
+    <div id="comments" class="comment-holder">
+      
+
+
+  <!-- Rendered timeline since 2013-10-03 19:52:27 -->
+  <div id="partial-timeline-marker"
+        class="js-timeline-marker js-socket-channel js-updatable-content"
+        data-channel="repo:14146233:commit:3c32d4714ef0043d85251f328ffaed2131f5c2b0"
+        data-url="/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0/show_partial?partial=commit%2Ftimeline_marker&amp;since=1380855147"
+        data-last-modified="Fri, 04 Oct 2013 02:52:27 GMT">
+
+  </div>
+
+    </div>
+
+    
+
+      Please <a rel="nofollow" href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Feluttner%2Fformatter.js%2Fcommit%2F3c32d4714ef0043d85251f328ffaed2131f5c2b0">sign in</a> to comment.
+
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2018 <span title="0.39604s from unicorn-3178353525-9gl6q">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li class="mr-3"><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to blog, text:blog" href="https://github.com/blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/compat-413dd2a0695c3dfaf7de158468a91646.js"></script>
+    <script crossorigin="anonymous" type="application/javascript" src="https://assets-cdn.github.com/assets/frameworks-4a55ab3fcf005abef1e8b859483f3cce.js"></script>
+    
+    <script crossorigin="anonymous" async="async" type="application/javascript" src="https://assets-cdn.github.com/assets/github-90168dc9163c72ed9d01808cc55741fa.js"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"/></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="#">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"/></svg>
+    </button>
+  </div>
+</div>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  </body>
+
+<!-- Mirrored from github.com/eluttner/formatter.js/commit/3c32d4714ef0043d85251f328ffaed2131f5c2b0 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Apr 2018 07:07:54 GMT -->
+</html>
+
